@@ -5,7 +5,6 @@ A production-ready Python data cleaning pipeline that automates data quality che
 
 **Tech Stack:** Python, Pandas, NumPy, Logging  
 **Status:** Production Ready  
-**GitHub:** [https://github.com/Developer-Sahil/data-cleaning-pipeline](link)
 
 ---
 
