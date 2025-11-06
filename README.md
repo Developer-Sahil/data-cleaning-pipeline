@@ -5,7 +5,7 @@ A production-ready Python data cleaning pipeline that automates data quality che
 
 **Tech Stack:** Python, Pandas, NumPy, Logging  
 **Status:** Production Ready  
-**GitHub:** [your-github-username/data-cleaning-pipeline](link)
+**GitHub:** [https://github.com/Developer-Sahil/data-cleaning-pipeline](link)
 
 ---
 
@@ -14,7 +14,7 @@ A production-ready Python data cleaning pipeline that automates data quality che
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/data-cleaning-pipeline.git
+git clone https://github.com/Developer-Sahil/data-cleaning-pipeline.git
 cd data-cleaning-pipeline
 
 # Install dependencies
@@ -245,24 +245,6 @@ result = (pipeline
 ```
 
 ---
-
-## 📝 How to Include in Resume
-
-### Resume Entry Example:
-
-**Data Cleaning Pipeline | Python, Pandas, NumPy**  
-*[GitHub Link] | Jan 2024 - Feb 2024*
-
-• Developed automated data cleaning pipeline handling 500K+ records with 98% data quality improvement  
-• Implemented outlier detection (IQR/Z-score), missing value imputation, and duplicate removal algorithms  
-• Built modular architecture with method chaining for 70% faster data preprocessing workflows  
-• Created comprehensive test suite and documentation for production deployment  
-
-### LinkedIn Project Section:
-
-**Title:** Automated Data Cleaning Pipeline  
-**Description:** Production-ready Python pipeline for data quality management. Features include automated duplicate removal, statistical outlier detection, missing value handling with multiple strategies, and comprehensive data validation. Reduced manual cleaning time by 70% and improved data accuracy to 98%.  
-**Skills:** Python • Pandas • Data Cleaning • ETL • NumPy
 
 ### GitHub Repository Must-Haves:
 
