@@ -258,19 +258,6 @@ result = (pipeline
 
 ---
 
-## 🎓 Interview Talking Points
-
-**Q: Tell me about this project**
-> "I built a reusable data cleaning pipeline in Python that automates common preprocessing tasks. It uses method chaining for readable code and handles everything from missing values to outlier detection. I focused on making it production-ready with logging, error handling, and comprehensive documentation."
-
-**Q: What challenges did you face?**
-> "The main challenge was designing a flexible API that could handle different data types and cleaning strategies. I solved this by using a strategy pattern for missing value handling and making the pipeline modular so users can chain operations in any order."
-
-**Q: How did you ensure quality?**
-> "I implemented comprehensive logging at each step, created before/after comparison reports, and built unit tests for all major functions. I also tested it on real datasets to validate the approach."
-
----
-
 ## 📦 Dependencies
 
 ```txt
