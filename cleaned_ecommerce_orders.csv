@@ -1,0 +1,747 @@
+order_id,customer_name,customer_email,order_date,product_category,quantity,price,discount_percent,shipping_city,customer_phone
+1,John Doe,john@example.com,2023-01-01 00:00:00,Home  Garden,4,67.01953496388329,0.0,new york,(555) 123-4567
+3,Bob Johnson,bob@test.com,2023-01-01 12:00:00,Books,5,196.50541380352425,0.0,chicago,555-123-4567
+4,ALICE WONG,alice@company.co,2023-01-01 18:00:00,Electronics,8,440.2074170180841,10.0,houston,N/A
+5,John Doe,john@example.com,2023-01-02 00:00:00,Electronics,5,435.3477781526507,0.0,phoenix,(555)1234567
+6,Charlie Brown,charlie@email.com,2023-01-02 06:00:00,Clothing,8,404.90344605763437,0.0,philadelphia,555.123.4567
+8,david LEE,david@site.org,2023-01-02 18:00:00,Books,9,159.29277815804,15.0,san diego,1234567890
+9,John Doe,john@example.com,2023-01-03 00:00:00,Books,6,49.65044869511357,20.0,new york,(555) 123-4567
+11,Bob Johnson,bob@test.com,2023-01-03 12:00:00,Home  Garden,8,95.02701234338925,20.0,chicago,555-123-4567
+12,ALICE WONG,alice@company.co,2023-01-03 18:00:00,Books,9,350.52603356220624,5.0,houston,N/A
+13,John Doe,john@example.com,2023-01-04 00:00:00,Electronics,6,179.5888660035149,0.0,phoenix,(555)1234567
+14,Charlie Brown,charlie@email.com,2023-01-04 06:00:00,Clothing,7,488.0489984213583,15.0,philadelphia,555.123.4567
+16,david LEE,david@site.org,2023-01-04 18:00:00,Clothing,5,413.01547618083686,10.0,san diego,1234567890
+17,John Doe,john@example.com,2023-01-05 00:00:00,Home  Garden,5,74.93708964350573,15.0,new york,(555) 123-4567
+19,Bob Johnson,bob@test.com,2023-01-05 12:00:00,Electronics,6,462.1510233515632,15.0,chicago,555-123-4567
+20,ALICE WONG,alice@company.co,2023-01-05 18:00:00,Home  Garden,7,248.6603402212786,15.0,houston,N/A
+21,John Doe,john@example.com,2023-01-06 00:00:00,Clothing,9,307.06393949797894,20.0,phoenix,(555)1234567
+22,Charlie Brown,charlie@email.com,2023-01-06 06:00:00,Electronics,1,384.75680244246774,15.0,philadelphia,555.123.4567
+24,david LEE,david@site.org,2023-01-06 18:00:00,Electronics,7,256.2573774670868,0.0,san diego,1234567890
+25,John Doe,john@example.com,2023-01-07 00:00:00,Electronics,3,205.34488360843343,0.0,new york,(555) 123-4567
+27,Bob Johnson,bob@test.com,2023-01-07 12:00:00,Books,5,190.09186692285041,20.0,chicago,555-123-4567
+28,ALICE WONG,alice@company.co,2023-01-07 18:00:00,Clothing,9,43.40443159889185,15.0,houston,N/A
+29,John Doe,john@example.com,2023-01-08 00:00:00,Home  Garden,5,22.647834405248624,10.0,phoenix,(555)1234567
+30,Charlie Brown,charlie@email.com,2023-01-08 06:00:00,Home  Garden,9,76.23148168586316,10.0,philadelphia,555.123.4567
+32,david LEE,david@site.org,2023-01-08 18:00:00,Home  Garden,9,279.2694725885583,0.0,san diego,1234567890
+33,John Doe,john@example.com,2023-01-09 00:00:00,Home  Garden,5,483.2528589650778,0.0,new york,(555) 123-4567
+35,Bob Johnson,bob@test.com,2023-01-09 12:00:00,Books,3,162.78990521177718,0.0,chicago,555-123-4567
+36,ALICE WONG,alice@company.co,2023-01-09 18:00:00,Electronics,4,258.0095127917196,5.0,houston,N/A
+37,John Doe,john@example.com,2023-01-10 00:00:00,Books,9,225.36072743012596,20.0,phoenix,(555)1234567
+38,Charlie Brown,charlie@email.com,2023-01-10 06:00:00,Electronics,6,61.77569528825452,15.0,philadelphia,555.123.4567
+40,david LEE,david@site.org,2023-01-10 18:00:00,Clothing,7,115.85870942970381,5.0,san diego,1234567890
+41,John Doe,john@example.com,2023-01-11 00:00:00,Home  Garden,2,313.5980978999365,0.0,new york,(555) 123-4567
+43,Bob Johnson,bob@test.com,2023-01-11 12:00:00,Home  Garden,1,84.49217803303758,20.0,chicago,555-123-4567
+44,ALICE WONG,alice@company.co,2023-01-11 18:00:00,Clothing,3,40.0613172842274,0.0,houston,N/A
+45,John Doe,john@example.com,2023-01-12 00:00:00,Clothing,6,392.5731771735355,5.0,phoenix,(555)1234567
+46,Charlie Brown,charlie@email.com,2023-01-12 06:00:00,Electronics,8,235.30220764696688,0.0,philadelphia,555.123.4567
+48,david LEE,david@site.org,2023-01-12 18:00:00,Electronics,7,497.4844954131859,15.0,san diego,1234567890
+49,John Doe,john@example.com,2023-01-13 00:00:00,Clothing,4,38.312474888219654,0.0,new york,(555) 123-4567
+51,Bob Johnson,bob@test.com,2023-01-13 12:00:00,Home  Garden,5,492.0026733790727,10.0,chicago,555-123-4567
+52,ALICE WONG,alice@company.co,2023-01-13 18:00:00,Home  Garden,8,127.19825106580355,0.0,houston,N/A
+53,John Doe,john@example.com,2023-01-14 00:00:00,Home  Garden,1,79.70219065672613,10.0,phoenix,(555)1234567
+54,Charlie Brown,charlie@email.com,2023-01-14 06:00:00,Electronics,1,69.47862031699016,0.0,philadelphia,555.123.4567
+56,david LEE,david@site.org,2023-01-14 18:00:00,Electronics,2,59.51244739521688,15.0,san diego,1234567890
+57,John Doe,john@example.com,2023-01-15 00:00:00,Home  Garden,5,349.1590574301246,0.0,new york,(555) 123-4567
+59,Bob Johnson,bob@test.com,2023-01-15 12:00:00,Home  Garden,7,259.6168427933969,20.0,chicago,555-123-4567
+60,ALICE WONG,alice@company.co,2023-01-15 18:00:00,Clothing,1,498.3814583879586,10.0,houston,N/A
+61,John Doe,john@example.com,2023-01-16 00:00:00,Clothing,4,408.8454320579492,0.0,phoenix,(555)1234567
+62,Charlie Brown,charlie@email.com,2023-01-16 06:00:00,Home  Garden,9,311.4575247331953,15.0,philadelphia,555.123.4567
+64,david LEE,david@site.org,2023-01-16 18:00:00,Clothing,4,315.70895978290287,15.0,san diego,1234567890
+65,John Doe,john@example.com,2023-01-17 00:00:00,Clothing,6,268.2503173167093,5.0,new york,(555) 123-4567
+67,Bob Johnson,bob@test.com,2023-01-17 12:00:00,Clothing,8,74.04808460269774,0.0,chicago,555-123-4567
+68,ALICE WONG,alice@company.co,2023-01-17 18:00:00,Clothing,1,444.4360654678287,15.0,houston,N/A
+69,John Doe,john@example.com,2023-01-18 00:00:00,Home  Garden,7,230.39447792244803,15.0,phoenix,(555)1234567
+70,Charlie Brown,charlie@email.com,2023-01-18 06:00:00,Home  Garden,1,105.36503079217488,0.0,philadelphia,555.123.4567
+72,david LEE,david@site.org,2023-01-18 18:00:00,Electronics,3,212.92357873917425,5.0,san diego,1234567890
+73,John Doe,john@example.com,2023-01-19 00:00:00,Electronics,8,415.4935688277684,15.0,new york,(555) 123-4567
+75,Bob Johnson,bob@test.com,2023-01-19 12:00:00,Electronics,1,386.95939788425653,0.0,chicago,555-123-4567
+76,ALICE WONG,alice@company.co,2023-01-19 18:00:00,Clothing,8,15.405319570037134,20.0,houston,N/A
+77,John Doe,john@example.com,2023-01-20 00:00:00,Electronics,3,213.91545910808313,5.0,phoenix,(555)1234567
+78,Charlie Brown,charlie@email.com,2023-01-20 06:00:00,Home  Garden,2,245.85863430130857,10.0,philadelphia,555.123.4567
+80,david LEE,david@site.org,2023-01-20 18:00:00,Home  Garden,3,137.30847228506678,0.0,san diego,1234567890
+81,John Doe,john@example.com,2023-01-21 00:00:00,Electronics,2,382.54201332984616,5.0,new york,(555) 123-4567
+83,Bob Johnson,bob@test.com,2023-01-21 12:00:00,Electronics,6,272.3019644117699,0.0,chicago,555-123-4567
+84,ALICE WONG,alice@company.co,2023-01-21 18:00:00,Electronics,1,115.44891728844638,20.0,houston,N/A
+85,John Doe,john@example.com,2023-01-22 00:00:00,Electronics,2,15.939179575507705,0.0,phoenix,(555)1234567
+86,Charlie Brown,charlie@email.com,2023-01-22 06:00:00,Electronics,6,128.18871422377532,0.0,philadelphia,555.123.4567
+88,david LEE,david@site.org,2023-01-22 18:00:00,Electronics,4,402.7531848226649,15.0,san diego,1234567890
+89,John Doe,john@example.com,2023-01-23 00:00:00,Home  Garden,1,480.1925557173064,0.0,new york,(555) 123-4567
+91,Bob Johnson,bob@test.com,2023-01-23 12:00:00,Books,7,63.77073735197672,15.0,chicago,555-123-4567
+92,ALICE WONG,alice@company.co,2023-01-23 18:00:00,Electronics,7,278.50014959710956,10.0,houston,N/A
+93,John Doe,john@example.com,2023-01-24 00:00:00,Books,3,232.64489393438083,20.0,phoenix,(555)1234567
+94,Charlie Brown,charlie@email.com,2023-01-24 06:00:00,Books,3,423.7349705424118,15.0,philadelphia,555.123.4567
+96,david LEE,david@site.org,2023-01-24 18:00:00,Books,1,249.23815714067132,15.0,san diego,1234567890
+97,John Doe,john@example.com,2023-01-25 00:00:00,Electronics,7,83.52384570005229,10.0,new york,(555) 123-4567
+99,Bob Johnson,bob@test.com,2023-01-25 12:00:00,Clothing,2,371.30496792002185,10.0,chicago,555-123-4567
+100,ALICE WONG,alice@company.co,2023-01-25 18:00:00,Electronics,7,243.2488833906956,0.0,houston,N/A
+101,John Doe,john@example.com,2023-01-26 00:00:00,Home  Garden,8,194.18525972142697,0.0,phoenix,(555)1234567
+102,Charlie Brown,charlie@email.com,2023-01-26 06:00:00,Electronics,1,203.2933764993173,20.0,philadelphia,555.123.4567
+104,david LEE,david@site.org,2023-01-26 18:00:00,Clothing,7,394.65810648015787,10.0,san diego,1234567890
+105,John Doe,john@example.com,2023-01-27 00:00:00,Electronics,3,447.12149758071484,15.0,new york,(555) 123-4567
+107,Bob Johnson,bob@test.com,2023-01-27 12:00:00,Books,7,395.5826592650946,20.0,chicago,555-123-4567
+108,ALICE WONG,alice@company.co,2023-01-27 18:00:00,Home  Garden,8,164.54937891652622,0.0,houston,N/A
+109,John Doe,john@example.com,2023-01-28 00:00:00,Books,6,347.1860059824057,20.0,phoenix,(555)1234567
+110,Charlie Brown,charlie@email.com,2023-01-28 06:00:00,Books,9,224.42553078714204,5.0,philadelphia,555.123.4567
+112,david LEE,david@site.org,2023-01-28 18:00:00,Books,3,422.02707391870206,15.0,san diego,1234567890
+113,John Doe,john@example.com,2023-01-29 00:00:00,Electronics,3,28.82891099153925,20.0,new york,(555) 123-4567
+115,Bob Johnson,bob@test.com,2023-01-29 12:00:00,Electronics,8,236.12395766611974,15.0,chicago,555-123-4567
+116,ALICE WONG,alice@company.co,2023-01-29 18:00:00,Electronics,2,322.2287236360574,5.0,houston,N/A
+117,John Doe,john@example.com,2023-01-30 00:00:00,Clothing,3,333.0834218808335,15.0,phoenix,(555)1234567
+118,Charlie Brown,charlie@email.com,2023-01-30 06:00:00,Books,8,448.6076929462028,5.0,philadelphia,555.123.4567
+120,david LEE,david@site.org,2023-01-30 18:00:00,Clothing,4,310.8274565324303,20.0,san diego,1234567890
+121,John Doe,john@example.com,2023-01-31 00:00:00,Clothing,4,42.65949987473808,15.0,new york,(555) 123-4567
+123,Bob Johnson,bob@test.com,2023-01-31 12:00:00,Electronics,6,83.58281040035041,10.0,chicago,555-123-4567
+124,ALICE WONG,alice@company.co,2023-01-31 18:00:00,Books,5,371.3425466735279,15.0,houston,N/A
+125,John Doe,john@example.com,2023-02-01 00:00:00,Electronics,7,260.9887411982105,0.0,phoenix,(555)1234567
+126,Charlie Brown,charlie@email.com,2023-02-01 06:00:00,Home  Garden,2,343.31161181209313,0.0,philadelphia,555.123.4567
+128,david LEE,david@site.org,2023-02-01 18:00:00,Home  Garden,7,51.54808786244358,10.0,san diego,1234567890
+129,John Doe,john@example.com,2023-02-02 00:00:00,Electronics,1,360.9984601507143,5.0,new york,(555) 123-4567
+131,Bob Johnson,bob@test.com,2023-02-02 12:00:00,Books,5,44.91579660497671,5.0,chicago,555-123-4567
+132,ALICE WONG,alice@company.co,2023-02-02 18:00:00,Electronics,3,15.93315286509485,0.0,houston,N/A
+133,John Doe,john@example.com,2023-02-03 00:00:00,Home  Garden,3,478.68568516674526,5.0,phoenix,(555)1234567
+134,Charlie Brown,charlie@email.com,2023-02-03 06:00:00,Electronics,4,371.3790961349134,0.0,philadelphia,555.123.4567
+136,david LEE,david@site.org,2023-02-03 18:00:00,Books,2,155.30243483095106,10.0,san diego,1234567890
+137,John Doe,john@example.com,2023-02-04 00:00:00,Home  Garden,1,181.35458257546628,20.0,new york,(555) 123-4567
+139,Bob Johnson,bob@test.com,2023-02-04 12:00:00,Clothing,4,334.07159942450306,10.0,chicago,555-123-4567
+140,ALICE WONG,alice@company.co,2023-02-04 18:00:00,Electronics,2,100.7458282550593,20.0,houston,N/A
+141,John Doe,john@example.com,2023-02-05 00:00:00,Electronics,3,95.31357431370132,20.0,phoenix,(555)1234567
+142,Charlie Brown,charlie@email.com,2023-02-05 06:00:00,Electronics,7,58.213868359564685,15.0,philadelphia,555.123.4567
+144,david LEE,david@site.org,2023-02-05 18:00:00,Home  Garden,4,384.5426044886506,10.0,san diego,1234567890
+145,John Doe,john@example.com,2023-02-06 00:00:00,Home  Garden,5,139.87274987925198,10.0,new york,(555) 123-4567
+147,Bob Johnson,bob@test.com,2023-02-06 12:00:00,Home  Garden,6,50.2641170634494,0.0,chicago,555-123-4567
+148,ALICE WONG,alice@company.co,2023-02-06 18:00:00,Books,9,484.25141707406493,15.0,houston,N/A
+149,John Doe,john@example.com,2023-02-07 00:00:00,Clothing,2,154.76794096393593,0.0,phoenix,(555)1234567
+150,Charlie Brown,charlie@email.com,2023-02-07 06:00:00,Home  Garden,5,386.91934244068545,0.0,philadelphia,555.123.4567
+152,david LEE,david@site.org,2023-02-07 18:00:00,Electronics,4,197.150423429919,0.0,san diego,1234567890
+153,John Doe,john@example.com,2023-02-08 00:00:00,Electronics,6,110.786758475822,0.0,new york,(555) 123-4567
+155,Bob Johnson,bob@test.com,2023-02-08 12:00:00,Books,1,311.35635433904463,5.0,chicago,555-123-4567
+156,ALICE WONG,alice@company.co,2023-02-08 18:00:00,Electronics,8,389.5705525125161,5.0,houston,N/A
+157,John Doe,john@example.com,2023-02-09 00:00:00,Home  Garden,7,325.51308423515405,0.0,phoenix,(555)1234567
+158,Charlie Brown,charlie@email.com,2023-02-09 06:00:00,Electronics,1,269.8480452920876,5.0,philadelphia,555.123.4567
+160,david LEE,david@site.org,2023-02-09 18:00:00,Books,3,484.5595010212481,15.0,san diego,1234567890
+161,John Doe,john@example.com,2023-02-10 00:00:00,Books,1,401.3699539107416,15.0,new york,(555) 123-4567
+163,Bob Johnson,bob@test.com,2023-02-10 12:00:00,Electronics,8,490.1854613858368,10.0,chicago,555-123-4567
+164,ALICE WONG,alice@company.co,2023-02-10 18:00:00,Electronics,2,304.9219789217978,0.0,houston,N/A
+165,John Doe,john@example.com,2023-02-11 00:00:00,Books,9,295.3871025215508,0.0,phoenix,(555)1234567
+166,Charlie Brown,charlie@email.com,2023-02-11 06:00:00,Clothing,7,376.5558579204707,5.0,philadelphia,555.123.4567
+168,david LEE,david@site.org,2023-02-11 18:00:00,Books,6,331.6745175924363,10.0,san diego,1234567890
+169,John Doe,john@example.com,2023-02-12 00:00:00,Electronics,6,72.766915719438,5.0,new york,(555) 123-4567
+171,Bob Johnson,bob@test.com,2023-02-12 12:00:00,Electronics,2,464.7609837597644,5.0,chicago,555-123-4567
+172,ALICE WONG,alice@company.co,2023-02-12 18:00:00,Electronics,7,120.06164980348744,20.0,houston,N/A
+173,John Doe,john@example.com,2023-02-13 00:00:00,Clothing,5,192.36184168038153,0.0,phoenix,(555)1234567
+174,Charlie Brown,charlie@email.com,2023-02-13 06:00:00,Home  Garden,6,221.71767264265603,20.0,philadelphia,555.123.4567
+176,david LEE,david@site.org,2023-02-13 18:00:00,Clothing,5,310.3403954223175,0.0,san diego,1234567890
+177,John Doe,john@example.com,2023-02-14 00:00:00,Books,4,472.10716049490674,0.0,new york,(555) 123-4567
+179,Bob Johnson,bob@test.com,2023-02-14 12:00:00,Electronics,6,69.53567438744986,0.0,chicago,555-123-4567
+180,ALICE WONG,alice@company.co,2023-02-14 18:00:00,Electronics,2,106.76054003136929,5.0,houston,N/A
+181,John Doe,john@example.com,2023-02-15 00:00:00,Electronics,1,444.5932011025421,0.0,phoenix,(555)1234567
+182,Charlie Brown,charlie@email.com,2023-02-15 06:00:00,Books,5,326.44729820105096,5.0,philadelphia,555.123.4567
+184,david LEE,david@site.org,2023-02-15 18:00:00,Clothing,6,409.81400009462243,20.0,san diego,1234567890
+185,John Doe,john@example.com,2023-02-16 00:00:00,Clothing,7,432.07129821808365,0.0,new york,(555) 123-4567
+187,Bob Johnson,bob@test.com,2023-02-16 12:00:00,Electronics,6,460.2740014833817,0.0,chicago,555-123-4567
+188,ALICE WONG,alice@company.co,2023-02-16 18:00:00,Electronics,5,133.59809988494717,0.0,houston,N/A
+189,John Doe,john@example.com,2023-02-17 00:00:00,Electronics,9,379.97054508567635,20.0,phoenix,(555)1234567
+190,Charlie Brown,charlie@email.com,2023-02-17 06:00:00,Books,6,235.66435366432862,15.0,philadelphia,555.123.4567
+192,david LEE,david@site.org,2023-02-17 18:00:00,Electronics,2,366.9604318091905,10.0,san diego,1234567890
+193,John Doe,john@example.com,2023-02-18 00:00:00,Home  Garden,9,390.45924878486505,15.0,new york,(555) 123-4567
+195,Bob Johnson,bob@test.com,2023-02-18 12:00:00,Home  Garden,7,96.94009704015636,0.0,chicago,555-123-4567
+196,ALICE WONG,alice@company.co,2023-02-18 18:00:00,Books,1,277.0631902594998,10.0,houston,N/A
+197,John Doe,john@example.com,2023-02-19 00:00:00,Books,5,492.48817236700904,20.0,phoenix,(555)1234567
+198,Charlie Brown,charlie@email.com,2023-02-19 06:00:00,Electronics,2,469.32015258358825,5.0,philadelphia,555.123.4567
+200,david LEE,david@site.org,2023-02-19 18:00:00,Home  Garden,1,90.75925970742419,15.0,san diego,1234567890
+201,John Doe,john@example.com,2023-02-20 00:00:00,Clothing,3,74.54709899273533,15.0,new york,(555) 123-4567
+203,Bob Johnson,bob@test.com,2023-02-20 12:00:00,Electronics,4,410.71481162990307,0.0,chicago,555-123-4567
+204,ALICE WONG,alice@company.co,2023-02-20 18:00:00,Electronics,3,114.62056949222924,15.0,houston,N/A
+205,John Doe,john@example.com,2023-02-21 00:00:00,Home  Garden,5,257.8678195463962,10.0,phoenix,(555)1234567
+206,Charlie Brown,charlie@email.com,2023-02-21 06:00:00,Books,8,421.944483725488,15.0,philadelphia,555.123.4567
+208,david LEE,david@site.org,2023-02-21 18:00:00,Books,1,275.69623069100567,5.0,san diego,1234567890
+209,John Doe,john@example.com,2023-02-22 00:00:00,Home  Garden,7,299.2703683247987,0.0,new york,(555) 123-4567
+211,Bob Johnson,bob@test.com,2023-02-22 12:00:00,Books,3,155.79874114622208,15.0,chicago,555-123-4567
+212,ALICE WONG,alice@company.co,2023-02-22 18:00:00,Home  Garden,6,286.8607765009179,10.0,houston,N/A
+213,John Doe,john@example.com,2023-02-23 00:00:00,Books,2,347.55379800454443,20.0,phoenix,(555)1234567
+214,Charlie Brown,charlie@email.com,2023-02-23 06:00:00,Clothing,7,437.9282287717958,0.0,philadelphia,555.123.4567
+216,david LEE,david@site.org,2023-02-23 18:00:00,Books,6,382.9495531511474,10.0,san diego,1234567890
+217,John Doe,john@example.com,2023-02-24 00:00:00,Home  Garden,6,88.43510112774077,0.0,new york,(555) 123-4567
+219,Bob Johnson,bob@test.com,2023-02-24 12:00:00,Electronics,8,14.572493715275716,5.0,chicago,555-123-4567
+220,ALICE WONG,alice@company.co,2023-02-24 18:00:00,Electronics,1,130.87264361559528,5.0,houston,N/A
+221,John Doe,john@example.com,2023-02-25 00:00:00,Clothing,4,365.9662404053724,0.0,phoenix,(555)1234567
+222,Charlie Brown,charlie@email.com,2023-02-25 06:00:00,Electronics,4,495.9868761611881,15.0,philadelphia,555.123.4567
+224,david LEE,david@site.org,2023-02-25 18:00:00,Home  Garden,3,206.73221477203126,10.0,san diego,1234567890
+225,John Doe,john@example.com,2023-02-26 00:00:00,Electronics,4,402.0347746625882,20.0,new york,(555) 123-4567
+227,Bob Johnson,bob@test.com,2023-02-26 12:00:00,Clothing,2,281.99162515812026,20.0,chicago,555-123-4567
+228,ALICE WONG,alice@company.co,2023-02-26 18:00:00,Clothing,9,369.20493505454067,5.0,houston,N/A
+229,John Doe,john@example.com,2023-02-27 00:00:00,Books,2,311.83287062748775,0.0,phoenix,(555)1234567
+230,Charlie Brown,charlie@email.com,2023-02-27 06:00:00,Home  Garden,5,102.13211996155391,10.0,philadelphia,555.123.4567
+232,david LEE,david@site.org,2023-02-27 18:00:00,Electronics,9,394.05797439784465,20.0,san diego,1234567890
+233,John Doe,john@example.com,2023-02-28 00:00:00,Home  Garden,8,281.57099192468814,5.0,new york,(555) 123-4567
+235,Bob Johnson,bob@test.com,2023-02-28 12:00:00,Electronics,1,382.88547241376597,20.0,chicago,555-123-4567
+236,ALICE WONG,alice@company.co,2023-02-28 18:00:00,Clothing,9,27.302563920717144,5.0,houston,N/A
+237,John Doe,john@example.com,2023-03-01 00:00:00,Electronics,8,375.4095535383037,0.0,phoenix,(555)1234567
+238,Charlie Brown,charlie@email.com,2023-03-01 06:00:00,Home  Garden,9,109.21547448096634,15.0,philadelphia,555.123.4567
+240,david LEE,david@site.org,2023-03-01 18:00:00,Electronics,3,190.29096813802138,0.0,san diego,1234567890
+241,John Doe,john@example.com,2023-03-02 00:00:00,Books,3,170.19649200565877,10.0,new york,(555) 123-4567
+243,Bob Johnson,bob@test.com,2023-03-02 12:00:00,Electronics,5,159.7460655902053,10.0,chicago,555-123-4567
+244,ALICE WONG,alice@company.co,2023-03-02 18:00:00,Books,3,439.5588732958183,15.0,houston,N/A
+245,John Doe,john@example.com,2023-03-03 00:00:00,Books,6,498.2038254373512,5.0,phoenix,(555)1234567
+246,Charlie Brown,charlie@email.com,2023-03-03 06:00:00,Books,2,190.4716699483557,0.0,philadelphia,555.123.4567
+248,david LEE,david@site.org,2023-03-03 18:00:00,Electronics,5,363.81475971934117,0.0,san diego,1234567890
+249,John Doe,john@example.com,2023-03-04 00:00:00,Home  Garden,1,444.2359324278865,15.0,new york,(555) 123-4567
+251,Bob Johnson,bob@test.com,2023-03-04 12:00:00,Electronics,9,201.84759210713636,20.0,chicago,555-123-4567
+252,ALICE WONG,alice@company.co,2023-03-04 18:00:00,Home  Garden,7,212.18470201582562,5.0,houston,N/A
+253,John Doe,john@example.com,2023-03-05 00:00:00,Home  Garden,1,350.8528917834354,15.0,phoenix,(555)1234567
+254,Charlie Brown,charlie@email.com,2023-03-05 06:00:00,Books,8,11.576949166096554,20.0,philadelphia,555.123.4567
+256,david LEE,david@site.org,2023-03-05 18:00:00,Books,8,184.1915751162651,15.0,san diego,1234567890
+257,John Doe,john@example.com,2023-03-06 00:00:00,Electronics,5,399.1566923257713,5.0,new york,(555) 123-4567
+259,Bob Johnson,bob@test.com,2023-03-06 12:00:00,Clothing,7,298.21911080471136,20.0,chicago,555-123-4567
+260,ALICE WONG,alice@company.co,2023-03-06 18:00:00,Clothing,5,245.67671604420065,5.0,houston,N/A
+261,John Doe,john@example.com,2023-03-07 00:00:00,Clothing,6,324.73950769356145,15.0,phoenix,(555)1234567
+262,Charlie Brown,charlie@email.com,2023-03-07 06:00:00,Books,6,41.77826129665449,5.0,philadelphia,555.123.4567
+264,david LEE,david@site.org,2023-03-07 18:00:00,Electronics,9,285.12744810016665,0.0,san diego,1234567890
+265,John Doe,john@example.com,2023-03-08 00:00:00,Home  Garden,2,284.72344626392373,20.0,new york,(555) 123-4567
+267,Bob Johnson,bob@test.com,2023-03-08 12:00:00,Home  Garden,9,341.4692892409175,0.0,chicago,555-123-4567
+268,ALICE WONG,alice@company.co,2023-03-08 18:00:00,Electronics,7,404.44460984357715,20.0,houston,N/A
+269,John Doe,john@example.com,2023-03-09 00:00:00,Electronics,1,142.21215286282504,10.0,phoenix,(555)1234567
+270,Charlie Brown,charlie@email.com,2023-03-09 06:00:00,Home  Garden,7,414.27421098823044,15.0,philadelphia,555.123.4567
+272,david LEE,david@site.org,2023-03-09 18:00:00,Electronics,6,47.75855677582227,20.0,san diego,1234567890
+273,John Doe,john@example.com,2023-03-10 00:00:00,Electronics,7,38.689955329549804,5.0,new york,(555) 123-4567
+275,Bob Johnson,bob@test.com,2023-03-10 12:00:00,Books,7,394.5995187846191,0.0,chicago,555-123-4567
+276,ALICE WONG,alice@company.co,2023-03-10 18:00:00,Books,9,356.7636580230487,0.0,houston,N/A
+277,John Doe,john@example.com,2023-03-11 00:00:00,Electronics,3,396.42133268947913,10.0,phoenix,(555)1234567
+278,Charlie Brown,charlie@email.com,2023-03-11 06:00:00,Books,8,263.4618376563886,5.0,philadelphia,555.123.4567
+280,david LEE,david@site.org,2023-03-11 18:00:00,Books,7,82.25173808607913,0.0,san diego,1234567890
+281,John Doe,john@example.com,2023-03-12 00:00:00,Clothing,2,170.81444926856267,0.0,new york,(555) 123-4567
+283,Bob Johnson,bob@test.com,2023-03-12 12:00:00,Electronics,7,53.414210543012445,0.0,chicago,555-123-4567
+284,ALICE WONG,alice@company.co,2023-03-12 18:00:00,Home  Garden,3,118.09985682849351,10.0,houston,N/A
+285,John Doe,john@example.com,2023-03-13 00:00:00,Electronics,2,303.130394091232,15.0,phoenix,(555)1234567
+286,Charlie Brown,charlie@email.com,2023-03-13 06:00:00,Electronics,7,370.47492597720304,15.0,philadelphia,555.123.4567
+288,david LEE,david@site.org,2023-03-13 18:00:00,Electronics,8,467.2255323583433,0.0,san diego,1234567890
+289,John Doe,john@example.com,2023-03-14 00:00:00,Books,3,324.85694777224387,10.0,new york,(555) 123-4567
+291,Bob Johnson,bob@test.com,2023-03-14 12:00:00,Books,3,321.72690870703406,0.0,chicago,555-123-4567
+292,ALICE WONG,alice@company.co,2023-03-14 18:00:00,Electronics,5,394.96929285931367,10.0,houston,N/A
+293,John Doe,john@example.com,2023-03-15 00:00:00,Electronics,8,67.98473355245979,5.0,phoenix,(555)1234567
+294,Charlie Brown,charlie@email.com,2023-03-15 06:00:00,Home  Garden,7,210.85339595118123,0.0,philadelphia,555.123.4567
+296,david LEE,david@site.org,2023-03-15 18:00:00,Electronics,7,198.07814644719156,5.0,san diego,1234567890
+297,John Doe,john@example.com,2023-03-16 00:00:00,Electronics,8,290.2174129013214,20.0,new york,(555) 123-4567
+299,Bob Johnson,bob@test.com,2023-03-16 12:00:00,Home  Garden,4,100.39336403548329,20.0,chicago,555-123-4567
+300,ALICE WONG,alice@company.co,2023-03-16 18:00:00,Electronics,6,187.4953664096213,15.0,houston,N/A
+301,John Doe,john@example.com,2023-03-17 00:00:00,Electronics,9,173.91053148354675,20.0,phoenix,(555)1234567
+302,Charlie Brown,charlie@email.com,2023-03-17 06:00:00,Electronics,2,22.83638718071175,10.0,philadelphia,555.123.4567
+304,david LEE,david@site.org,2023-03-17 18:00:00,Electronics,2,417.531551401129,15.0,san diego,1234567890
+305,John Doe,john@example.com,2023-03-18 00:00:00,Books,7,143.80469688667807,0.0,new york,(555) 123-4567
+307,Bob Johnson,bob@test.com,2023-03-18 12:00:00,Electronics,2,156.3755310584988,0.0,chicago,555-123-4567
+308,ALICE WONG,alice@company.co,2023-03-18 18:00:00,Home  Garden,7,470.93283010651686,5.0,houston,N/A
+309,John Doe,john@example.com,2023-03-19 00:00:00,Electronics,2,137.05541184422913,5.0,phoenix,(555)1234567
+310,Charlie Brown,charlie@email.com,2023-03-19 06:00:00,Electronics,3,220.53183824207818,20.0,philadelphia,555.123.4567
+312,david LEE,david@site.org,2023-03-19 18:00:00,Books,4,422.54744772798625,15.0,san diego,1234567890
+313,John Doe,john@example.com,2023-03-20 00:00:00,Clothing,1,101.18969474467589,5.0,new york,(555) 123-4567
+315,Bob Johnson,bob@test.com,2023-03-20 12:00:00,Clothing,9,234.5115745015674,10.0,chicago,555-123-4567
+316,ALICE WONG,alice@company.co,2023-03-20 18:00:00,Clothing,8,246.65474732182406,0.0,houston,N/A
+317,John Doe,john@example.com,2023-03-21 00:00:00,Books,9,75.40518648381246,0.0,phoenix,(555)1234567
+318,Charlie Brown,charlie@email.com,2023-03-21 06:00:00,Clothing,9,49.49474174099108,20.0,philadelphia,555.123.4567
+320,david LEE,david@site.org,2023-03-21 18:00:00,Books,4,253.26596465409688,0.0,san diego,1234567890
+321,John Doe,john@example.com,2023-03-22 00:00:00,Clothing,5,224.05684428143798,0.0,new york,(555) 123-4567
+323,Bob Johnson,bob@test.com,2023-03-22 12:00:00,Clothing,1,385.1013205056438,5.0,chicago,555-123-4567
+324,ALICE WONG,alice@company.co,2023-03-22 18:00:00,Electronics,3,87.86500215798324,20.0,houston,N/A
+325,John Doe,john@example.com,2023-03-23 00:00:00,Electronics,8,309.01032324404423,0.0,phoenix,(555)1234567
+326,Charlie Brown,charlie@email.com,2023-03-23 06:00:00,Electronics,2,76.3235003160659,20.0,philadelphia,555.123.4567
+328,david LEE,david@site.org,2023-03-23 18:00:00,Electronics,2,331.90802657089836,20.0,san diego,1234567890
+329,John Doe,john@example.com,2023-03-24 00:00:00,Clothing,5,478.7411643308944,10.0,new york,(555) 123-4567
+331,Bob Johnson,bob@test.com,2023-03-24 12:00:00,Books,1,37.956813364114616,20.0,chicago,555-123-4567
+332,ALICE WONG,alice@company.co,2023-03-24 18:00:00,Clothing,5,148.27166659966807,10.0,houston,N/A
+333,John Doe,john@example.com,2023-03-25 00:00:00,Electronics,9,138.23578503059392,15.0,phoenix,(555)1234567
+334,Charlie Brown,charlie@email.com,2023-03-25 06:00:00,Electronics,1,131.01961154527993,5.0,philadelphia,555.123.4567
+336,david LEE,david@site.org,2023-03-25 18:00:00,Clothing,8,132.277637926258,10.0,san diego,1234567890
+337,John Doe,john@example.com,2023-03-26 00:00:00,Electronics,4,143.25536580302918,20.0,new york,(555) 123-4567
+339,Bob Johnson,bob@test.com,2023-03-26 12:00:00,Electronics,5,230.37252280076459,5.0,chicago,555-123-4567
+340,ALICE WONG,alice@company.co,2023-03-26 18:00:00,Home  Garden,6,390.5881729080388,20.0,houston,N/A
+341,John Doe,john@example.com,2023-03-27 00:00:00,Electronics,7,42.02941720654877,20.0,phoenix,(555)1234567
+342,Charlie Brown,charlie@email.com,2023-03-27 06:00:00,Home  Garden,8,248.9098848999583,0.0,philadelphia,555.123.4567
+344,david LEE,david@site.org,2023-03-27 18:00:00,Home  Garden,2,40.700069693123716,5.0,san diego,1234567890
+345,John Doe,john@example.com,2023-03-28 00:00:00,Clothing,9,454.15435213876134,15.0,new york,(555) 123-4567
+347,Bob Johnson,bob@test.com,2023-03-28 12:00:00,Books,4,270.8861343148564,15.0,chicago,555-123-4567
+348,ALICE WONG,alice@company.co,2023-03-28 18:00:00,Electronics,4,211.4368452743462,20.0,houston,N/A
+349,John Doe,john@example.com,2023-03-29 00:00:00,Clothing,8,180.19822986683292,20.0,phoenix,(555)1234567
+350,Charlie Brown,charlie@email.com,2023-03-29 06:00:00,Electronics,4,450.91833938676353,0.0,philadelphia,555.123.4567
+352,david LEE,david@site.org,2023-03-29 18:00:00,Clothing,5,335.2569462260387,0.0,san diego,1234567890
+353,John Doe,john@example.com,2023-03-30 00:00:00,Electronics,3,482.0632727646397,15.0,new york,(555) 123-4567
+355,Bob Johnson,bob@test.com,2023-03-30 12:00:00,Clothing,9,469.043006396215,0.0,chicago,555-123-4567
+356,ALICE WONG,alice@company.co,2023-03-30 18:00:00,Books,9,35.606360850151646,10.0,houston,N/A
+357,John Doe,john@example.com,2023-03-31 00:00:00,Home  Garden,1,215.2087263463391,15.0,phoenix,(555)1234567
+358,Charlie Brown,charlie@email.com,2023-03-31 06:00:00,Electronics,3,137.47731757140508,5.0,philadelphia,555.123.4567
+360,david LEE,david@site.org,2023-03-31 18:00:00,Electronics,6,490.8355743436509,20.0,san diego,1234567890
+361,John Doe,john@example.com,2023-04-01 00:00:00,Home  Garden,5,135.69973059768142,0.0,new york,(555) 123-4567
+363,Bob Johnson,bob@test.com,2023-04-01 12:00:00,Home  Garden,6,107.06784005227266,10.0,chicago,555-123-4567
+364,ALICE WONG,alice@company.co,2023-04-01 18:00:00,Electronics,7,287.01182474008885,20.0,houston,N/A
+365,John Doe,john@example.com,2023-04-02 00:00:00,Home  Garden,1,237.32691847728475,15.0,phoenix,(555)1234567
+366,Charlie Brown,charlie@email.com,2023-04-02 06:00:00,Electronics,9,486.28261151945316,5.0,philadelphia,555.123.4567
+368,david LEE,david@site.org,2023-04-02 18:00:00,Books,4,181.2581223225412,5.0,san diego,1234567890
+369,John Doe,john@example.com,2023-04-03 00:00:00,Home  Garden,1,65.90693459508735,15.0,new york,(555) 123-4567
+371,Bob Johnson,bob@test.com,2023-04-03 12:00:00,Clothing,2,120.4052956761052,5.0,chicago,555-123-4567
+372,ALICE WONG,alice@company.co,2023-04-03 18:00:00,Home  Garden,2,132.97366405674603,0.0,houston,N/A
+373,John Doe,john@example.com,2023-04-04 00:00:00,Clothing,1,426.80186834215755,0.0,phoenix,(555)1234567
+374,Charlie Brown,charlie@email.com,2023-04-04 06:00:00,Books,8,284.9991662584372,20.0,philadelphia,555.123.4567
+376,david LEE,david@site.org,2023-04-04 18:00:00,Books,3,66.23674721591655,20.0,san diego,1234567890
+377,John Doe,john@example.com,2023-04-05 00:00:00,Home  Garden,6,431.46844974122314,20.0,new york,(555) 123-4567
+379,Bob Johnson,bob@test.com,2023-04-05 12:00:00,Clothing,9,43.157497331000776,20.0,chicago,555-123-4567
+380,ALICE WONG,alice@company.co,2023-04-05 18:00:00,Electronics,9,356.83919764258667,0.0,houston,N/A
+381,John Doe,john@example.com,2023-04-06 00:00:00,Clothing,4,276.3337264978966,0.0,phoenix,(555)1234567
+382,Charlie Brown,charlie@email.com,2023-04-06 06:00:00,Electronics,5,50.045419415921344,0.0,philadelphia,555.123.4567
+384,david LEE,david@site.org,2023-04-06 18:00:00,Home  Garden,9,247.50118069372303,0.0,san diego,1234567890
+385,John Doe,john@example.com,2023-04-07 00:00:00,Electronics,8,91.22952468000511,15.0,new york,(555) 123-4567
+387,Bob Johnson,bob@test.com,2023-04-07 12:00:00,Clothing,9,426.48793202552434,0.0,chicago,555-123-4567
+388,ALICE WONG,alice@company.co,2023-04-07 18:00:00,Clothing,3,337.82094529126306,20.0,houston,N/A
+389,John Doe,john@example.com,2023-04-08 00:00:00,Electronics,9,236.52482489029754,0.0,phoenix,(555)1234567
+390,Charlie Brown,charlie@email.com,2023-04-08 06:00:00,Clothing,2,211.76511537640917,5.0,philadelphia,555.123.4567
+392,david LEE,david@site.org,2023-04-08 18:00:00,Electronics,8,277.26161600938366,20.0,san diego,1234567890
+393,John Doe,john@example.com,2023-04-09 00:00:00,Electronics,9,40.51382188212395,20.0,new york,(555) 123-4567
+395,Bob Johnson,bob@test.com,2023-04-09 12:00:00,Electronics,2,405.13777244409135,10.0,chicago,555-123-4567
+396,ALICE WONG,alice@company.co,2023-04-09 18:00:00,Electronics,8,235.02754002250944,10.0,houston,N/A
+397,John Doe,john@example.com,2023-04-10 00:00:00,Electronics,6,35.45872300159152,0.0,phoenix,(555)1234567
+398,Charlie Brown,charlie@email.com,2023-04-10 06:00:00,Books,8,395.27631769817623,15.0,philadelphia,555.123.4567
+400,david LEE,david@site.org,2023-04-10 18:00:00,Clothing,2,136.724209095139,15.0,san diego,1234567890
+401,John Doe,john@example.com,2023-04-11 00:00:00,Books,6,90.70611318182499,0.0,new york,(555) 123-4567
+403,Bob Johnson,bob@test.com,2023-04-11 12:00:00,Electronics,5,380.80823778743115,15.0,chicago,555-123-4567
+404,ALICE WONG,alice@company.co,2023-04-11 18:00:00,Electronics,1,264.4990711569293,0.0,houston,N/A
+405,John Doe,john@example.com,2023-04-12 00:00:00,Home  Garden,2,110.39182433384916,20.0,phoenix,(555)1234567
+406,Charlie Brown,charlie@email.com,2023-04-12 06:00:00,Electronics,8,440.1367382945,20.0,philadelphia,555.123.4567
+408,david LEE,david@site.org,2023-04-12 18:00:00,Home  Garden,3,436.58342827254336,5.0,san diego,1234567890
+409,John Doe,john@example.com,2023-04-13 00:00:00,Electronics,8,127.01014357695425,0.0,new york,(555) 123-4567
+411,Bob Johnson,bob@test.com,2023-04-13 12:00:00,Clothing,2,492.64493150902877,20.0,chicago,555-123-4567
+412,ALICE WONG,alice@company.co,2023-04-13 18:00:00,Clothing,8,388.2861133918953,0.0,houston,N/A
+413,John Doe,john@example.com,2023-04-14 00:00:00,Electronics,1,23.312036400524313,10.0,phoenix,(555)1234567
+414,Charlie Brown,charlie@email.com,2023-04-14 06:00:00,Home  Garden,6,41.9502497176411,10.0,philadelphia,555.123.4567
+416,david LEE,david@site.org,2023-04-14 18:00:00,Electronics,3,455.5179008721645,0.0,san diego,1234567890
+417,John Doe,john@example.com,2023-04-15 00:00:00,Clothing,8,273.96388099682997,0.0,new york,(555) 123-4567
+419,Bob Johnson,bob@test.com,2023-04-15 12:00:00,Electronics,9,61.68211297874899,0.0,chicago,555-123-4567
+420,ALICE WONG,alice@company.co,2023-04-15 18:00:00,Home  Garden,9,331.82225131490407,15.0,houston,N/A
+421,John Doe,john@example.com,2023-04-16 00:00:00,Clothing,5,412.83054869411046,0.0,phoenix,(555)1234567
+422,Charlie Brown,charlie@email.com,2023-04-16 06:00:00,Home  Garden,4,196.40580367870555,20.0,philadelphia,555.123.4567
+424,david LEE,david@site.org,2023-04-16 18:00:00,Clothing,7,482.5935604113977,20.0,san diego,1234567890
+425,John Doe,john@example.com,2023-04-17 00:00:00,Books,5,109.84556497256766,0.0,new york,(555) 123-4567
+427,Bob Johnson,bob@test.com,2023-04-17 12:00:00,Electronics,3,150.69759946144202,5.0,chicago,555-123-4567
+428,ALICE WONG,alice@company.co,2023-04-17 18:00:00,Electronics,7,398.49866532658126,5.0,houston,N/A
+429,John Doe,john@example.com,2023-04-18 00:00:00,Electronics,5,293.02074928176717,10.0,phoenix,(555)1234567
+430,Charlie Brown,charlie@email.com,2023-04-18 06:00:00,Home  Garden,7,320.94538459964883,5.0,philadelphia,555.123.4567
+432,david LEE,david@site.org,2023-04-18 18:00:00,Electronics,4,204.0255316046029,0.0,san diego,1234567890
+433,John Doe,john@example.com,2023-04-19 00:00:00,Home  Garden,2,458.39413351945115,0.0,new york,(555) 123-4567
+435,Bob Johnson,bob@test.com,2023-04-19 12:00:00,Home  Garden,2,87.39786318932052,5.0,chicago,555-123-4567
+436,ALICE WONG,alice@company.co,2023-04-19 18:00:00,Home  Garden,1,350.9905679027132,0.0,houston,N/A
+437,John Doe,john@example.com,2023-04-20 00:00:00,Clothing,9,398.69806171474465,0.0,phoenix,(555)1234567
+438,Charlie Brown,charlie@email.com,2023-04-20 06:00:00,Books,1,165.21322176308806,0.0,philadelphia,555.123.4567
+440,david LEE,david@site.org,2023-04-20 18:00:00,Electronics,2,454.01019483522555,15.0,san diego,1234567890
+441,John Doe,john@example.com,2023-04-21 00:00:00,Electronics,8,145.6831988151264,0.0,new york,(555) 123-4567
+443,Bob Johnson,bob@test.com,2023-04-21 12:00:00,Books,6,78.94864874389162,20.0,chicago,555-123-4567
+444,ALICE WONG,alice@company.co,2023-04-21 18:00:00,Books,3,108.98767751722008,20.0,houston,N/A
+445,John Doe,john@example.com,2023-04-22 00:00:00,Electronics,7,100.2701712266328,0.0,phoenix,(555)1234567
+446,Charlie Brown,charlie@email.com,2023-04-22 06:00:00,Home  Garden,9,448.0549579038565,0.0,philadelphia,555.123.4567
+448,david LEE,david@site.org,2023-04-22 18:00:00,Electronics,5,84.5310987789137,0.0,san diego,1234567890
+449,John Doe,john@example.com,2023-04-23 00:00:00,Electronics,6,225.758475000491,10.0,new york,(555) 123-4567
+451,Bob Johnson,bob@test.com,2023-04-23 12:00:00,Books,4,50.89740164479781,0.0,chicago,555-123-4567
+452,ALICE WONG,alice@company.co,2023-04-23 18:00:00,Home  Garden,4,442.384020519596,0.0,houston,N/A
+453,John Doe,john@example.com,2023-04-24 00:00:00,Electronics,2,403.7657323663522,5.0,phoenix,(555)1234567
+454,Charlie Brown,charlie@email.com,2023-04-24 06:00:00,Electronics,4,257.55131905255274,10.0,philadelphia,555.123.4567
+456,david LEE,david@site.org,2023-04-24 18:00:00,Clothing,6,214.70287984479884,0.0,san diego,1234567890
+457,John Doe,john@example.com,2023-04-25 00:00:00,Electronics,1,492.21405632788395,5.0,new york,(555) 123-4567
+459,Bob Johnson,bob@test.com,2023-04-25 12:00:00,Clothing,1,320.9889238944313,0.0,chicago,555-123-4567
+460,ALICE WONG,alice@company.co,2023-04-25 18:00:00,Books,6,91.31789869493466,0.0,houston,N/A
+461,John Doe,john@example.com,2023-04-26 00:00:00,Electronics,8,442.14460156927555,0.0,phoenix,(555)1234567
+462,Charlie Brown,charlie@email.com,2023-04-26 06:00:00,Clothing,2,219.46994708110142,5.0,philadelphia,555.123.4567
+464,david LEE,david@site.org,2023-04-26 18:00:00,Clothing,4,16.17768478812193,0.0,san diego,1234567890
+465,John Doe,john@example.com,2023-04-27 00:00:00,Clothing,3,284.2802849828075,20.0,new york,(555) 123-4567
+467,Bob Johnson,bob@test.com,2023-04-27 12:00:00,Clothing,7,362.4832749608877,20.0,chicago,555-123-4567
+468,ALICE WONG,alice@company.co,2023-04-27 18:00:00,Books,1,446.22644597872306,0.0,houston,N/A
+469,John Doe,john@example.com,2023-04-28 00:00:00,Electronics,6,48.909226475084466,0.0,phoenix,(555)1234567
+470,Charlie Brown,charlie@email.com,2023-04-28 06:00:00,Home  Garden,3,368.43328026677756,15.0,philadelphia,555.123.4567
+472,david LEE,david@site.org,2023-04-28 18:00:00,Electronics,2,430.50675604701036,20.0,san diego,1234567890
+473,John Doe,john@example.com,2023-04-29 00:00:00,Clothing,2,411.3411217922115,10.0,new york,(555) 123-4567
+475,Bob Johnson,bob@test.com,2023-04-29 12:00:00,Books,1,358.0189713254226,0.0,chicago,555-123-4567
+476,ALICE WONG,alice@company.co,2023-04-29 18:00:00,Electronics,3,164.0315554600367,15.0,houston,N/A
+477,John Doe,john@example.com,2023-04-30 00:00:00,Home  Garden,9,240.87227047707918,20.0,phoenix,(555)1234567
+478,Charlie Brown,charlie@email.com,2023-04-30 06:00:00,Electronics,7,412.6020798781311,0.0,philadelphia,555.123.4567
+480,david LEE,david@site.org,2023-04-30 18:00:00,Electronics,4,185.32115000946646,10.0,san diego,1234567890
+481,John Doe,john@example.com,2023-05-01 00:00:00,Electronics,2,252.16409915264694,5.0,new york,(555) 123-4567
+483,Bob Johnson,bob@test.com,2023-05-01 12:00:00,Clothing,6,174.25194321172765,15.0,chicago,555-123-4567
+484,ALICE WONG,alice@company.co,2023-05-01 18:00:00,Electronics,3,95.14318063651446,5.0,houston,N/A
+485,John Doe,john@example.com,2023-05-02 00:00:00,Electronics,1,358.8868699620826,0.0,phoenix,(555)1234567
+486,Charlie Brown,charlie@email.com,2023-05-02 06:00:00,Books,8,414.7293242269601,10.0,philadelphia,555.123.4567
+488,david LEE,david@site.org,2023-05-02 18:00:00,Books,5,127.53831525041292,15.0,san diego,1234567890
+489,John Doe,john@example.com,2023-05-03 00:00:00,Home  Garden,4,79.56627498288701,10.0,new york,(555) 123-4567
+491,Bob Johnson,bob@test.com,2023-05-03 12:00:00,Electronics,3,230.6719796636522,5.0,chicago,555-123-4567
+492,ALICE WONG,alice@company.co,2023-05-03 18:00:00,Electronics,9,376.92490511202016,0.0,houston,N/A
+493,John Doe,john@example.com,2023-05-04 00:00:00,Home  Garden,5,329.0623165920203,0.0,phoenix,(555)1234567
+494,Charlie Brown,charlie@email.com,2023-05-04 06:00:00,Electronics,3,314.2549980644313,5.0,philadelphia,555.123.4567
+496,david LEE,david@site.org,2023-05-04 18:00:00,Electronics,6,422.30930101153234,15.0,san diego,1234567890
+497,John Doe,john@example.com,2023-05-05 00:00:00,Books,2,240.93071202510063,10.0,new york,(555) 123-4567
+499,Bob Johnson,bob@test.com,2023-05-05 12:00:00,Electronics,1,320.7296477649111,10.0,chicago,555-123-4567
+500,ALICE WONG,alice@company.co,2023-05-05 18:00:00,Electronics,9,71.86972336660634,0.0,houston,N/A
+501,John Doe,john@example.com,2023-05-06 00:00:00,Home  Garden,8,341.32700541696266,0.0,phoenix,(555)1234567
+502,Charlie Brown,charlie@email.com,2023-05-06 06:00:00,Electronics,2,169.3009675615325,0.0,philadelphia,555.123.4567
+504,david LEE,david@site.org,2023-05-06 18:00:00,Books,9,44.12416259957881,10.0,san diego,1234567890
+505,John Doe,john@example.com,2023-05-07 00:00:00,Books,1,95.6919042162201,20.0,new york,(555) 123-4567
+507,Bob Johnson,bob@test.com,2023-05-07 12:00:00,Home  Garden,8,121.3179829415223,20.0,chicago,555-123-4567
+508,ALICE WONG,alice@company.co,2023-05-07 18:00:00,Home  Garden,2,420.1501513690406,10.0,houston,N/A
+509,John Doe,john@example.com,2023-05-08 00:00:00,Electronics,4,146.8452833426611,0.0,phoenix,(555)1234567
+510,Charlie Brown,charlie@email.com,2023-05-08 06:00:00,Electronics,7,325.0121359287667,20.0,philadelphia,555.123.4567
+512,david LEE,david@site.org,2023-05-08 18:00:00,Home  Garden,5,261.20082904107596,10.0,san diego,1234567890
+513,John Doe,john@example.com,2023-05-09 00:00:00,Electronics,8,159.60223158139834,10.0,new york,(555) 123-4567
+515,Bob Johnson,bob@test.com,2023-05-09 12:00:00,Home  Garden,4,26.262783735588847,10.0,chicago,555-123-4567
+516,ALICE WONG,alice@company.co,2023-05-09 18:00:00,Books,9,158.93373660795467,10.0,houston,N/A
+517,John Doe,john@example.com,2023-05-10 00:00:00,Clothing,7,330.0497673603287,5.0,phoenix,(555)1234567
+518,Charlie Brown,charlie@email.com,2023-05-10 06:00:00,Electronics,1,469.7693610397565,0.0,philadelphia,555.123.4567
+520,david LEE,david@site.org,2023-05-10 18:00:00,Books,4,385.3717405022983,15.0,san diego,1234567890
+521,John Doe,john@example.com,2023-05-11 00:00:00,Home  Garden,9,396.33919819411636,15.0,new york,(555) 123-4567
+523,Bob Johnson,bob@test.com,2023-05-11 12:00:00,Home  Garden,9,137.54056020734146,0.0,chicago,555-123-4567
+524,ALICE WONG,alice@company.co,2023-05-11 18:00:00,Books,6,454.52556504585664,10.0,houston,N/A
+525,John Doe,john@example.com,2023-05-12 00:00:00,Electronics,6,338.6588328338587,0.0,phoenix,(555)1234567
+526,Charlie Brown,charlie@email.com,2023-05-12 06:00:00,Home  Garden,5,284.6159091804156,20.0,philadelphia,555.123.4567
+528,david LEE,david@site.org,2023-05-12 18:00:00,Electronics,2,229.05721646514846,10.0,san diego,1234567890
+529,John Doe,john@example.com,2023-05-13 00:00:00,Electronics,8,235.5755528889439,5.0,new york,(555) 123-4567
+531,Bob Johnson,bob@test.com,2023-05-13 12:00:00,Clothing,1,277.85762789201635,10.0,chicago,555-123-4567
+532,ALICE WONG,alice@company.co,2023-05-13 18:00:00,Clothing,8,196.39626899550072,5.0,houston,N/A
+533,John Doe,john@example.com,2023-05-14 00:00:00,Clothing,5,488.6321609702231,15.0,phoenix,(555)1234567
+534,Charlie Brown,charlie@email.com,2023-05-14 06:00:00,Electronics,2,64.25309072989468,15.0,philadelphia,555.123.4567
+536,david LEE,david@site.org,2023-05-14 18:00:00,Electronics,6,30.592090833988593,0.0,san diego,1234567890
+537,John Doe,john@example.com,2023-05-15 00:00:00,Books,9,372.5530191757959,15.0,new york,(555) 123-4567
+539,Bob Johnson,bob@test.com,2023-05-15 12:00:00,Clothing,6,147.21829147973983,20.0,chicago,555-123-4567
+540,ALICE WONG,alice@company.co,2023-05-15 18:00:00,Home  Garden,9,430.5874216315692,10.0,houston,N/A
+541,John Doe,john@example.com,2023-05-16 00:00:00,Electronics,8,153.18693292632992,20.0,phoenix,(555)1234567
+542,Charlie Brown,charlie@email.com,2023-05-16 06:00:00,Clothing,6,456.27737920551846,10.0,philadelphia,555.123.4567
+544,david LEE,david@site.org,2023-05-16 18:00:00,Home  Garden,8,404.40432065230493,0.0,san diego,1234567890
+545,John Doe,john@example.com,2023-05-17 00:00:00,Electronics,9,18.823212244222702,0.0,new york,(555) 123-4567
+547,Bob Johnson,bob@test.com,2023-05-17 12:00:00,Electronics,9,366.0687861144584,20.0,chicago,555-123-4567
+548,ALICE WONG,alice@company.co,2023-05-17 18:00:00,Clothing,6,159.32803673920532,0.0,houston,N/A
+549,John Doe,john@example.com,2023-05-18 00:00:00,Electronics,6,416.403385780835,15.0,phoenix,(555)1234567
+550,Charlie Brown,charlie@email.com,2023-05-18 06:00:00,Clothing,4,147.94538722331566,0.0,philadelphia,555.123.4567
+552,david LEE,david@site.org,2023-05-18 18:00:00,Clothing,8,65.16439130184914,0.0,san diego,1234567890
+553,John Doe,john@example.com,2023-05-19 00:00:00,Clothing,2,354.8061289557899,10.0,new york,(555) 123-4567
+555,Bob Johnson,bob@test.com,2023-05-19 12:00:00,Electronics,2,57.301890395766,0.0,chicago,555-123-4567
+556,ALICE WONG,alice@company.co,2023-05-19 18:00:00,Electronics,1,128.5279758468311,5.0,houston,N/A
+557,John Doe,john@example.com,2023-05-20 00:00:00,Books,1,16.077977775884246,0.0,phoenix,(555)1234567
+558,Charlie Brown,charlie@email.com,2023-05-20 06:00:00,Electronics,9,239.69630307760787,10.0,philadelphia,555.123.4567
+560,david LEE,david@site.org,2023-05-20 18:00:00,Home  Garden,4,303.1951673059018,20.0,san diego,1234567890
+561,John Doe,john@example.com,2023-05-21 00:00:00,Electronics,6,155.64652577722242,10.0,new york,(555) 123-4567
+563,Bob Johnson,bob@test.com,2023-05-21 12:00:00,Electronics,2,374.16466737848566,0.0,chicago,555-123-4567
+564,ALICE WONG,alice@company.co,2023-05-21 18:00:00,Home  Garden,6,33.58998962939319,15.0,houston,N/A
+565,John Doe,john@example.com,2023-05-22 00:00:00,Home  Garden,7,452.4185476440737,0.0,phoenix,(555)1234567
+566,Charlie Brown,charlie@email.com,2023-05-22 06:00:00,Home  Garden,2,427.6092984516789,20.0,philadelphia,555.123.4567
+568,david LEE,david@site.org,2023-05-22 18:00:00,Electronics,7,300.6785693526183,0.0,san diego,1234567890
+569,John Doe,john@example.com,2023-05-23 00:00:00,Home  Garden,1,447.2282240884296,0.0,new york,(555) 123-4567
+571,Bob Johnson,bob@test.com,2023-05-23 12:00:00,Clothing,3,48.694889473506024,0.0,chicago,555-123-4567
+572,ALICE WONG,alice@company.co,2023-05-23 18:00:00,Clothing,6,127.35998325567367,20.0,houston,N/A
+573,John Doe,john@example.com,2023-05-24 00:00:00,Books,9,399.3433565630932,15.0,phoenix,(555)1234567
+574,Charlie Brown,charlie@email.com,2023-05-24 06:00:00,Books,6,26.988430695976827,20.0,philadelphia,555.123.4567
+576,david LEE,david@site.org,2023-05-24 18:00:00,Electronics,7,497.76438293374184,5.0,san diego,1234567890
+577,John Doe,john@example.com,2023-05-25 00:00:00,Clothing,9,429.2910859803943,0.0,new york,(555) 123-4567
+579,Bob Johnson,bob@test.com,2023-05-25 12:00:00,Clothing,8,41.18404555045475,5.0,chicago,555-123-4567
+580,ALICE WONG,alice@company.co,2023-05-25 18:00:00,Home  Garden,8,417.3730220489978,0.0,houston,N/A
+581,John Doe,john@example.com,2023-05-26 00:00:00,Home  Garden,2,303.4994690068332,20.0,phoenix,(555)1234567
+582,Charlie Brown,charlie@email.com,2023-05-26 06:00:00,Electronics,4,66.31716855918775,5.0,philadelphia,555.123.4567
+584,david LEE,david@site.org,2023-05-26 18:00:00,Electronics,4,455.71714152393025,5.0,san diego,1234567890
+585,John Doe,john@example.com,2023-05-27 00:00:00,Books,4,337.90812883965845,0.0,new york,(555) 123-4567
+587,Bob Johnson,bob@test.com,2023-05-27 12:00:00,Home  Garden,6,440.699661138311,20.0,chicago,555-123-4567
+588,ALICE WONG,alice@company.co,2023-05-27 18:00:00,Electronics,3,290.1684525036779,15.0,houston,N/A
+589,John Doe,john@example.com,2023-05-28 00:00:00,Home  Garden,9,263.54871235997024,0.0,phoenix,(555)1234567
+590,Charlie Brown,charlie@email.com,2023-05-28 06:00:00,Electronics,2,220.9094310572852,0.0,philadelphia,555.123.4567
+592,david LEE,david@site.org,2023-05-28 18:00:00,Electronics,7,222.95202082076878,5.0,san diego,1234567890
+593,John Doe,john@example.com,2023-05-29 00:00:00,Electronics,9,389.20103130777665,5.0,new york,(555) 123-4567
+595,Bob Johnson,bob@test.com,2023-05-29 12:00:00,Home  Garden,3,447.33641207787457,0.0,chicago,555-123-4567
+596,ALICE WONG,alice@company.co,2023-05-29 18:00:00,Electronics,7,227.25620704580197,0.0,houston,N/A
+597,John Doe,john@example.com,2023-05-30 00:00:00,Electronics,4,307.47389357218947,10.0,phoenix,(555)1234567
+598,Charlie Brown,charlie@email.com,2023-05-30 06:00:00,Electronics,8,319.34070101507444,0.0,philadelphia,555.123.4567
+600,david LEE,david@site.org,2023-05-30 18:00:00,Electronics,5,354.290548811903,10.0,san diego,1234567890
+601,John Doe,john@example.com,2023-05-31 00:00:00,Books,7,126.34239950365507,10.0,new york,(555) 123-4567
+603,Bob Johnson,bob@test.com,2023-05-31 12:00:00,Electronics,2,61.07015337609036,5.0,chicago,555-123-4567
+604,ALICE WONG,alice@company.co,2023-05-31 18:00:00,Home  Garden,6,198.41055054595816,0.0,houston,N/A
+605,John Doe,john@example.com,2023-06-01 00:00:00,Books,2,248.95686362441955,10.0,phoenix,(555)1234567
+606,Charlie Brown,charlie@email.com,2023-06-01 06:00:00,Books,3,329.5898871772815,5.0,philadelphia,555.123.4567
+608,david LEE,david@site.org,2023-06-01 18:00:00,Electronics,5,304.31902260869435,5.0,san diego,1234567890
+609,John Doe,john@example.com,2023-06-02 00:00:00,Clothing,8,374.3610189265143,0.0,new york,(555) 123-4567
+611,Bob Johnson,bob@test.com,2023-06-02 12:00:00,Electronics,3,320.7109753744023,5.0,chicago,555-123-4567
+612,ALICE WONG,alice@company.co,2023-06-02 18:00:00,Electronics,3,44.75678590554898,10.0,houston,N/A
+613,John Doe,john@example.com,2023-06-03 00:00:00,Electronics,3,134.65187461250503,10.0,phoenix,(555)1234567
+614,Charlie Brown,charlie@email.com,2023-06-03 06:00:00,Books,6,187.30801567051796,20.0,philadelphia,555.123.4567
+616,david LEE,david@site.org,2023-06-03 18:00:00,Books,7,32.367885296168026,15.0,san diego,1234567890
+617,John Doe,john@example.com,2023-06-04 00:00:00,Home  Garden,1,78.61180780112566,10.0,new york,(555) 123-4567
+619,Bob Johnson,bob@test.com,2023-06-04 12:00:00,Home  Garden,8,486.0510185415148,0.0,chicago,555-123-4567
+620,ALICE WONG,alice@company.co,2023-06-04 18:00:00,Home  Garden,4,172.36003348049488,15.0,houston,N/A
+621,John Doe,john@example.com,2023-06-05 00:00:00,Electronics,5,246.20011847492043,15.0,phoenix,(555)1234567
+622,Charlie Brown,charlie@email.com,2023-06-05 06:00:00,Clothing,4,106.08787924181254,10.0,philadelphia,555.123.4567
+624,david LEE,david@site.org,2023-06-05 18:00:00,Home  Garden,8,147.5347756028274,10.0,san diego,1234567890
+625,John Doe,john@example.com,2023-06-06 00:00:00,Clothing,2,111.42636343482913,5.0,new york,(555) 123-4567
+627,Bob Johnson,bob@test.com,2023-06-06 12:00:00,Home  Garden,3,12.697841588606202,20.0,chicago,555-123-4567
+628,ALICE WONG,alice@company.co,2023-06-06 18:00:00,Clothing,9,13.75537599812041,5.0,houston,N/A
+629,John Doe,john@example.com,2023-06-07 00:00:00,Home  Garden,4,117.34371645991031,0.0,phoenix,(555)1234567
+630,Charlie Brown,charlie@email.com,2023-06-07 06:00:00,Home  Garden,5,27.99346762540236,10.0,philadelphia,555.123.4567
+632,david LEE,david@site.org,2023-06-07 18:00:00,Electronics,4,176.04171817598828,10.0,san diego,1234567890
+633,John Doe,john@example.com,2023-06-08 00:00:00,Home  Garden,2,403.2669829941083,5.0,new york,(555) 123-4567
+635,Bob Johnson,bob@test.com,2023-06-08 12:00:00,Electronics,4,261.20718571864404,0.0,chicago,555-123-4567
+636,ALICE WONG,alice@company.co,2023-06-08 18:00:00,Electronics,6,153.8095233719796,0.0,houston,N/A
+637,John Doe,john@example.com,2023-06-09 00:00:00,Electronics,7,466.55932252208004,0.0,phoenix,(555)1234567
+638,Charlie Brown,charlie@email.com,2023-06-09 06:00:00,Electronics,3,204.53737020622393,10.0,philadelphia,555.123.4567
+640,david LEE,david@site.org,2023-06-09 18:00:00,Electronics,6,312.3625928977226,10.0,san diego,1234567890
+641,John Doe,john@example.com,2023-06-10 00:00:00,Home  Garden,3,65.78081280353469,15.0,new york,(555) 123-4567
+643,Bob Johnson,bob@test.com,2023-06-10 12:00:00,Electronics,8,258.63184997172635,20.0,chicago,555-123-4567
+644,ALICE WONG,alice@company.co,2023-06-10 18:00:00,Books,5,438.36903709573613,15.0,houston,N/A
+645,John Doe,john@example.com,2023-06-11 00:00:00,Electronics,1,251.83782436665814,0.0,phoenix,(555)1234567
+646,Charlie Brown,charlie@email.com,2023-06-11 06:00:00,Clothing,3,354.1067953555155,10.0,philadelphia,555.123.4567
+648,david LEE,david@site.org,2023-06-11 18:00:00,Electronics,4,74.42966875001099,0.0,san diego,1234567890
+649,John Doe,john@example.com,2023-06-12 00:00:00,Electronics,7,144.61844750456456,5.0,new york,(555) 123-4567
+651,Bob Johnson,bob@test.com,2023-06-12 12:00:00,Clothing,7,216.69580748402737,10.0,chicago,555-123-4567
+652,ALICE WONG,alice@company.co,2023-06-12 18:00:00,Clothing,5,211.40032688011743,0.0,houston,N/A
+653,John Doe,john@example.com,2023-06-13 00:00:00,Books,5,454.72939125271193,10.0,phoenix,(555)1234567
+654,Charlie Brown,charlie@email.com,2023-06-13 06:00:00,Electronics,6,359.87599578875967,20.0,philadelphia,555.123.4567
+656,david LEE,david@site.org,2023-06-13 18:00:00,Electronics,6,161.59263175276322,0.0,san diego,1234567890
+657,John Doe,john@example.com,2023-06-14 00:00:00,Electronics,8,413.6572882684344,15.0,new york,(555) 123-4567
+659,Bob Johnson,bob@test.com,2023-06-14 12:00:00,Electronics,9,412.387158449611,0.0,chicago,555-123-4567
+660,ALICE WONG,alice@company.co,2023-06-14 18:00:00,Books,4,10.766901543821723,0.0,houston,N/A
+661,John Doe,john@example.com,2023-06-15 00:00:00,Electronics,2,321.8366713898694,20.0,phoenix,(555)1234567
+662,Charlie Brown,charlie@email.com,2023-06-15 06:00:00,Clothing,7,35.056336906629355,15.0,philadelphia,555.123.4567
+664,david LEE,david@site.org,2023-06-15 18:00:00,Books,1,39.167103170408126,0.0,san diego,1234567890
+665,John Doe,john@example.com,2023-06-16 00:00:00,Books,9,305.8597719452,20.0,new york,(555) 123-4567
+667,Bob Johnson,bob@test.com,2023-06-16 12:00:00,Electronics,2,66.09894265229352,0.0,chicago,555-123-4567
+668,ALICE WONG,alice@company.co,2023-06-16 18:00:00,Electronics,3,198.08105269203995,0.0,houston,N/A
+669,John Doe,john@example.com,2023-06-17 00:00:00,Clothing,5,233.55588938821558,15.0,phoenix,(555)1234567
+670,Charlie Brown,charlie@email.com,2023-06-17 06:00:00,Electronics,5,190.83598066284912,10.0,philadelphia,555.123.4567
+672,david LEE,david@site.org,2023-06-17 18:00:00,Electronics,8,215.28441719186296,5.0,san diego,1234567890
+673,John Doe,john@example.com,2023-06-18 00:00:00,Electronics,8,378.0772434261249,15.0,new york,(555) 123-4567
+675,Bob Johnson,bob@test.com,2023-06-18 12:00:00,Electronics,7,49.28820690013269,20.0,chicago,555-123-4567
+676,ALICE WONG,alice@company.co,2023-06-18 18:00:00,Electronics,3,183.83793299963227,0.0,houston,N/A
+677,John Doe,john@example.com,2023-06-19 00:00:00,Electronics,6,471.44559869327327,5.0,phoenix,(555)1234567
+678,Charlie Brown,charlie@email.com,2023-06-19 06:00:00,Books,9,337.60059689422786,0.0,philadelphia,555.123.4567
+680,david LEE,david@site.org,2023-06-19 18:00:00,Electronics,5,187.34079551055385,0.0,san diego,1234567890
+681,John Doe,john@example.com,2023-06-20 00:00:00,Electronics,4,300.8937876921838,5.0,new york,(555) 123-4567
+683,Bob Johnson,bob@test.com,2023-06-20 12:00:00,Clothing,1,321.6870627406757,10.0,chicago,555-123-4567
+684,ALICE WONG,alice@company.co,2023-06-20 18:00:00,Clothing,9,457.510604312356,0.0,houston,N/A
+685,John Doe,john@example.com,2023-06-21 00:00:00,Books,6,310.1609994889614,5.0,phoenix,(555)1234567
+686,Charlie Brown,charlie@email.com,2023-06-21 06:00:00,Electronics,4,438.11231079850904,10.0,philadelphia,555.123.4567
+688,david LEE,david@site.org,2023-06-21 18:00:00,Electronics,5,69.07362403780823,10.0,san diego,1234567890
+689,John Doe,john@example.com,2023-06-22 00:00:00,Electronics,5,452.20212057006245,20.0,new york,(555) 123-4567
+691,Bob Johnson,bob@test.com,2023-06-22 12:00:00,Electronics,1,271.64406154840424,15.0,chicago,555-123-4567
+692,ALICE WONG,alice@company.co,2023-06-22 18:00:00,Electronics,1,79.64719065879426,15.0,houston,N/A
+693,John Doe,john@example.com,2023-06-23 00:00:00,Home  Garden,8,15.736239258142993,20.0,phoenix,(555)1234567
+694,Charlie Brown,charlie@email.com,2023-06-23 06:00:00,Electronics,8,216.7967874625431,10.0,philadelphia,555.123.4567
+696,david LEE,david@site.org,2023-06-23 18:00:00,Clothing,4,248.14024196082548,10.0,san diego,1234567890
+697,John Doe,john@example.com,2023-06-24 00:00:00,Home  Garden,2,292.8279444999299,5.0,new york,(555) 123-4567
+699,Bob Johnson,bob@test.com,2023-06-24 12:00:00,Clothing,9,70.27161461063537,15.0,chicago,555-123-4567
+700,ALICE WONG,alice@company.co,2023-06-24 18:00:00,Clothing,5,283.73477426070843,0.0,houston,N/A
+701,John Doe,john@example.com,2023-06-25 00:00:00,Books,4,178.15200305460255,10.0,phoenix,(555)1234567
+702,Charlie Brown,charlie@email.com,2023-06-25 06:00:00,Books,1,367.2950088992295,0.0,philadelphia,555.123.4567
+704,david LEE,david@site.org,2023-06-25 18:00:00,Home  Garden,3,424.34613786505435,5.0,san diego,1234567890
+705,John Doe,john@example.com,2023-06-26 00:00:00,Electronics,6,349.3214850679204,5.0,new york,(555) 123-4567
+707,Bob Johnson,bob@test.com,2023-06-26 12:00:00,Electronics,5,339.7536449732719,20.0,chicago,555-123-4567
+708,ALICE WONG,alice@company.co,2023-06-26 18:00:00,Books,5,144.93677538515507,0.0,houston,N/A
+709,John Doe,john@example.com,2023-06-27 00:00:00,Electronics,1,160.0936144013242,20.0,phoenix,(555)1234567
+710,Charlie Brown,charlie@email.com,2023-06-27 06:00:00,Electronics,1,396.6027283611887,15.0,philadelphia,555.123.4567
+712,david LEE,david@site.org,2023-06-27 18:00:00,Electronics,4,401.20636685399273,0.0,san diego,1234567890
+713,John Doe,john@example.com,2023-06-28 00:00:00,Clothing,5,412.9869630974564,0.0,new york,(555) 123-4567
+715,Bob Johnson,bob@test.com,2023-06-28 12:00:00,Books,8,459.1512655621916,10.0,chicago,555-123-4567
+716,ALICE WONG,alice@company.co,2023-06-28 18:00:00,Home  Garden,2,221.18275805151515,5.0,houston,N/A
+717,John Doe,john@example.com,2023-06-29 00:00:00,Clothing,9,166.24474097735802,10.0,phoenix,(555)1234567
+718,Charlie Brown,charlie@email.com,2023-06-29 06:00:00,Clothing,2,295.2773858311158,20.0,philadelphia,555.123.4567
+720,david LEE,david@site.org,2023-06-29 18:00:00,Clothing,7,304.52634173211413,10.0,san diego,1234567890
+721,John Doe,john@example.com,2023-06-30 00:00:00,Books,8,355.73707269547407,0.0,new york,(555) 123-4567
+723,Bob Johnson,bob@test.com,2023-06-30 12:00:00,Clothing,7,193.53091463985947,0.0,chicago,555-123-4567
+724,ALICE WONG,alice@company.co,2023-06-30 18:00:00,Home  Garden,6,91.76149883238888,10.0,houston,N/A
+725,John Doe,john@example.com,2023-07-01 00:00:00,Electronics,4,220.9593758464817,5.0,phoenix,(555)1234567
+726,Charlie Brown,charlie@email.com,2023-07-01 06:00:00,Electronics,7,79.87113060013527,0.0,philadelphia,555.123.4567
+728,david LEE,david@site.org,2023-07-01 18:00:00,Clothing,2,179.47995576155014,5.0,san diego,1234567890
+729,John Doe,john@example.com,2023-07-02 00:00:00,Books,7,85.68527613942865,0.0,new york,(555) 123-4567
+731,Bob Johnson,bob@test.com,2023-07-02 12:00:00,Electronics,2,326.45296928037726,15.0,chicago,555-123-4567
+732,ALICE WONG,alice@company.co,2023-07-02 18:00:00,Electronics,5,322.0821355528242,10.0,houston,N/A
+733,John Doe,john@example.com,2023-07-03 00:00:00,Home  Garden,1,176.89604162483292,20.0,phoenix,(555)1234567
+734,Charlie Brown,charlie@email.com,2023-07-03 06:00:00,Clothing,7,45.13882553534899,0.0,philadelphia,555.123.4567
+736,david LEE,david@site.org,2023-07-03 18:00:00,Clothing,6,162.49657258106285,5.0,san diego,1234567890
+737,John Doe,john@example.com,2023-07-04 00:00:00,Electronics,5,341.7891134701546,0.0,new york,(555) 123-4567
+739,Bob Johnson,bob@test.com,2023-07-04 12:00:00,Home  Garden,2,188.6509268167946,10.0,chicago,555-123-4567
+740,ALICE WONG,alice@company.co,2023-07-04 18:00:00,Electronics,1,116.76735158494515,0.0,houston,N/A
+741,John Doe,john@example.com,2023-07-05 00:00:00,Clothing,7,494.13762341624,10.0,phoenix,(555)1234567
+742,Charlie Brown,charlie@email.com,2023-07-05 06:00:00,Electronics,7,232.4607943860963,0.0,philadelphia,555.123.4567
+744,david LEE,david@site.org,2023-07-05 18:00:00,Electronics,2,78.87095411339678,0.0,san diego,1234567890
+745,John Doe,john@example.com,2023-07-06 00:00:00,Books,1,247.93895283310493,0.0,new york,(555) 123-4567
+747,Bob Johnson,bob@test.com,2023-07-06 12:00:00,Books,8,257.67300777612047,0.0,chicago,555-123-4567
+748,ALICE WONG,alice@company.co,2023-07-06 18:00:00,Books,1,482.36852948767415,10.0,houston,N/A
+749,John Doe,john@example.com,2023-07-07 00:00:00,Electronics,8,198.26128936304212,0.0,phoenix,(555)1234567
+750,Charlie Brown,charlie@email.com,2023-07-07 06:00:00,Books,9,29.108046161706678,0.0,philadelphia,555.123.4567
+752,david LEE,david@site.org,2023-07-07 18:00:00,Home  Garden,1,200.11351237396605,15.0,san diego,1234567890
+753,John Doe,john@example.com,2023-07-08 00:00:00,Electronics,1,88.41221886696508,0.0,new york,(555) 123-4567
+755,Bob Johnson,bob@test.com,2023-07-08 12:00:00,Books,5,380.54467083558666,20.0,chicago,555-123-4567
+756,ALICE WONG,alice@company.co,2023-07-08 18:00:00,Books,5,234.67627435212643,0.0,houston,N/A
+757,John Doe,john@example.com,2023-07-09 00:00:00,Electronics,9,151.72993826660073,5.0,phoenix,(555)1234567
+758,Charlie Brown,charlie@email.com,2023-07-09 06:00:00,Clothing,2,451.0407596780756,10.0,philadelphia,555.123.4567
+760,david LEE,david@site.org,2023-07-09 18:00:00,Clothing,6,478.4002261881064,5.0,san diego,1234567890
+761,John Doe,john@example.com,2023-07-10 00:00:00,Books,9,163.84369151490287,20.0,new york,(555) 123-4567
+763,Bob Johnson,bob@test.com,2023-07-10 12:00:00,Electronics,9,305.4420094749361,10.0,chicago,555-123-4567
+764,ALICE WONG,alice@company.co,2023-07-10 18:00:00,Electronics,9,415.08660627332887,10.0,houston,N/A
+765,John Doe,john@example.com,2023-07-11 00:00:00,Clothing,9,492.1664499731275,15.0,phoenix,(555)1234567
+766,Charlie Brown,charlie@email.com,2023-07-11 06:00:00,Home  Garden,5,151.3186645311854,0.0,philadelphia,555.123.4567
+768,david LEE,david@site.org,2023-07-11 18:00:00,Electronics,4,200.84612850218596,15.0,san diego,1234567890
+769,John Doe,john@example.com,2023-07-12 00:00:00,Electronics,2,198.90083332109194,5.0,new york,(555) 123-4567
+771,Bob Johnson,bob@test.com,2023-07-12 12:00:00,Electronics,4,275.2897276003167,10.0,chicago,555-123-4567
+772,ALICE WONG,alice@company.co,2023-07-12 18:00:00,Electronics,6,85.53107115745868,20.0,houston,N/A
+773,John Doe,john@example.com,2023-07-13 00:00:00,Home  Garden,3,281.3186278254255,15.0,phoenix,(555)1234567
+774,Charlie Brown,charlie@email.com,2023-07-13 06:00:00,Clothing,6,275.43535808090195,5.0,philadelphia,555.123.4567
+776,david LEE,david@site.org,2023-07-13 18:00:00,Electronics,2,418.48848134941693,0.0,san diego,1234567890
+777,John Doe,john@example.com,2023-07-14 00:00:00,Clothing,9,225.8162616530878,10.0,new york,(555) 123-4567
+779,Bob Johnson,bob@test.com,2023-07-14 12:00:00,Books,3,137.0740996853763,0.0,chicago,555-123-4567
+780,ALICE WONG,alice@company.co,2023-07-14 18:00:00,Electronics,1,105.36567998538725,20.0,houston,N/A
+781,John Doe,john@example.com,2023-07-15 00:00:00,Clothing,8,38.24731527752219,15.0,phoenix,(555)1234567
+782,Charlie Brown,charlie@email.com,2023-07-15 06:00:00,Electronics,6,177.79950962900955,0.0,philadelphia,555.123.4567
+784,david LEE,david@site.org,2023-07-15 18:00:00,Books,9,483.5445190745396,10.0,san diego,1234567890
+785,John Doe,john@example.com,2023-07-16 00:00:00,Electronics,5,283.27732486252154,0.0,new york,(555) 123-4567
+787,Bob Johnson,bob@test.com,2023-07-16 12:00:00,Clothing,7,294.429124486911,15.0,chicago,555-123-4567
+788,ALICE WONG,alice@company.co,2023-07-16 18:00:00,Home  Garden,5,78.2063836593908,0.0,houston,N/A
+789,John Doe,john@example.com,2023-07-17 00:00:00,Electronics,3,227.58143710907942,10.0,phoenix,(555)1234567
+790,Charlie Brown,charlie@email.com,2023-07-17 06:00:00,Electronics,9,316.8548174963213,0.0,philadelphia,555.123.4567
+792,david LEE,david@site.org,2023-07-17 18:00:00,Electronics,1,206.87161232061888,5.0,san diego,1234567890
+793,John Doe,john@example.com,2023-07-18 00:00:00,Home  Garden,1,496.9857105608521,0.0,new york,(555) 123-4567
+795,Bob Johnson,bob@test.com,2023-07-18 12:00:00,Home  Garden,6,315.4689194981257,0.0,chicago,555-123-4567
+796,ALICE WONG,alice@company.co,2023-07-18 18:00:00,Clothing,3,288.99490697931856,0.0,houston,N/A
+797,John Doe,john@example.com,2023-07-19 00:00:00,Electronics,8,314.1236351140462,20.0,phoenix,(555)1234567
+798,Charlie Brown,charlie@email.com,2023-07-19 06:00:00,Clothing,2,108.64293283299229,20.0,philadelphia,555.123.4567
+800,david LEE,david@site.org,2023-07-19 18:00:00,Books,3,29.335171116540664,0.0,san diego,1234567890
+801,John Doe,john@example.com,2023-07-20 00:00:00,Books,5,243.01755836854505,5.0,new york,(555) 123-4567
+803,Bob Johnson,bob@test.com,2023-07-20 12:00:00,Home  Garden,2,121.5973706905727,20.0,chicago,555-123-4567
+804,ALICE WONG,alice@company.co,2023-07-20 18:00:00,Electronics,6,482.37413511110174,5.0,houston,N/A
+805,John Doe,john@example.com,2023-07-21 00:00:00,Clothing,5,455.6327593592486,10.0,phoenix,(555)1234567
+806,Charlie Brown,charlie@email.com,2023-07-21 06:00:00,Clothing,9,363.85018537339386,20.0,philadelphia,555.123.4567
+808,david LEE,david@site.org,2023-07-21 18:00:00,Books,2,436.2848882273656,10.0,san diego,1234567890
+809,John Doe,john@example.com,2023-07-22 00:00:00,Electronics,5,74.01964847349683,10.0,new york,(555) 123-4567
+811,Bob Johnson,bob@test.com,2023-07-22 12:00:00,Home  Garden,7,71.16219884375568,20.0,chicago,555-123-4567
+812,ALICE WONG,alice@company.co,2023-07-22 18:00:00,Clothing,6,399.16322464920864,0.0,houston,N/A
+813,John Doe,john@example.com,2023-07-23 00:00:00,Electronics,2,145.1261084431649,15.0,phoenix,(555)1234567
+814,Charlie Brown,charlie@email.com,2023-07-23 06:00:00,Electronics,5,439.77438469891257,15.0,philadelphia,555.123.4567
+816,david LEE,david@site.org,2023-07-23 18:00:00,Home  Garden,7,82.91002500850666,10.0,san diego,1234567890
+817,John Doe,john@example.com,2023-07-24 00:00:00,Electronics,5,236.71104648204283,5.0,new york,(555) 123-4567
+819,Bob Johnson,bob@test.com,2023-07-24 12:00:00,Electronics,4,246.86964362684185,20.0,chicago,555-123-4567
+820,ALICE WONG,alice@company.co,2023-07-24 18:00:00,Home  Garden,3,433.1382860321271,20.0,houston,N/A
+821,John Doe,john@example.com,2023-07-25 00:00:00,Electronics,4,298.4784458443467,5.0,phoenix,(555)1234567
+822,Charlie Brown,charlie@email.com,2023-07-25 06:00:00,Home  Garden,5,193.9116548806049,15.0,philadelphia,555.123.4567
+824,david LEE,david@site.org,2023-07-25 18:00:00,Books,3,109.57931463218276,20.0,san diego,1234567890
+825,John Doe,john@example.com,2023-07-26 00:00:00,Electronics,2,383.2811137750716,0.0,new york,(555) 123-4567
+827,Bob Johnson,bob@test.com,2023-07-26 12:00:00,Clothing,5,260.5249764783681,15.0,chicago,555-123-4567
+828,ALICE WONG,alice@company.co,2023-07-26 18:00:00,Home  Garden,4,251.23948520057914,0.0,houston,N/A
+829,John Doe,john@example.com,2023-07-27 00:00:00,Clothing,3,292.8667243242343,5.0,phoenix,(555)1234567
+830,Charlie Brown,charlie@email.com,2023-07-27 06:00:00,Electronics,8,434.1328013560306,0.0,philadelphia,555.123.4567
+832,david LEE,david@site.org,2023-07-27 18:00:00,Books,2,209.7162622011703,5.0,san diego,1234567890
+833,John Doe,john@example.com,2023-07-28 00:00:00,Clothing,2,415.4842718320885,0.0,new york,(555) 123-4567
+835,Bob Johnson,bob@test.com,2023-07-28 12:00:00,Electronics,4,291.0291862132309,20.0,chicago,555-123-4567
+836,ALICE WONG,alice@company.co,2023-07-28 18:00:00,Home  Garden,9,478.4631003698472,20.0,houston,N/A
+837,John Doe,john@example.com,2023-07-29 00:00:00,Clothing,7,108.23251260891736,0.0,phoenix,(555)1234567
+838,Charlie Brown,charlie@email.com,2023-07-29 06:00:00,Clothing,7,63.53946305171449,0.0,philadelphia,555.123.4567
+840,david LEE,david@site.org,2023-07-29 18:00:00,Books,8,225.18341015053667,20.0,san diego,1234567890
+841,John Doe,john@example.com,2023-07-30 00:00:00,Electronics,1,425.01473856145964,10.0,new york,(555) 123-4567
+843,Bob Johnson,bob@test.com,2023-07-30 12:00:00,Electronics,4,40.60422087334501,0.0,chicago,555-123-4567
+844,ALICE WONG,alice@company.co,2023-07-30 18:00:00,Electronics,4,442.8977338631697,0.0,houston,N/A
+845,John Doe,john@example.com,2023-07-31 00:00:00,Electronics,4,229.67633713101688,20.0,phoenix,(555)1234567
+846,Charlie Brown,charlie@email.com,2023-07-31 06:00:00,Electronics,6,260.1119196120738,5.0,philadelphia,555.123.4567
+848,david LEE,david@site.org,2023-07-31 18:00:00,Books,6,463.92747729774254,15.0,san diego,1234567890
+849,John Doe,john@example.com,2023-08-01 00:00:00,Electronics,1,19.366886270584374,10.0,new york,(555) 123-4567
+851,Bob Johnson,bob@test.com,2023-08-01 12:00:00,Books,7,346.9838007909747,0.0,chicago,555-123-4567
+852,ALICE WONG,alice@company.co,2023-08-01 18:00:00,Electronics,6,364.1264092721319,0.0,houston,N/A
+853,John Doe,john@example.com,2023-08-02 00:00:00,Home  Garden,6,349.3408914531829,0.0,phoenix,(555)1234567
+854,Charlie Brown,charlie@email.com,2023-08-02 06:00:00,Clothing,5,75.87321340997971,20.0,philadelphia,555.123.4567
+856,david LEE,david@site.org,2023-08-02 18:00:00,Home  Garden,9,185.77060745433658,20.0,san diego,1234567890
+857,John Doe,john@example.com,2023-08-03 00:00:00,Books,9,404.17423176295745,0.0,new york,(555) 123-4567
+859,Bob Johnson,bob@test.com,2023-08-03 12:00:00,Electronics,9,113.24543229492956,20.0,chicago,555-123-4567
+860,ALICE WONG,alice@company.co,2023-08-03 18:00:00,Books,8,479.14952932866714,0.0,houston,N/A
+861,John Doe,john@example.com,2023-08-04 00:00:00,Electronics,8,14.34300970559976,20.0,phoenix,(555)1234567
+862,Charlie Brown,charlie@email.com,2023-08-04 06:00:00,Clothing,1,498.9322192841693,5.0,philadelphia,555.123.4567
+864,david LEE,david@site.org,2023-08-04 18:00:00,Clothing,4,415.94995673006736,0.0,san diego,1234567890
+865,John Doe,john@example.com,2023-08-05 00:00:00,Books,2,154.36350420963464,15.0,new york,(555) 123-4567
+867,Bob Johnson,bob@test.com,2023-08-05 12:00:00,Home  Garden,3,371.55606409514974,0.0,chicago,555-123-4567
+868,ALICE WONG,alice@company.co,2023-08-05 18:00:00,Electronics,4,418.7308525303311,0.0,houston,N/A
+869,John Doe,john@example.com,2023-08-06 00:00:00,Clothing,7,372.8333046572244,0.0,phoenix,(555)1234567
+870,Charlie Brown,charlie@email.com,2023-08-06 06:00:00,Home  Garden,9,79.99664077741092,0.0,philadelphia,555.123.4567
+872,david LEE,david@site.org,2023-08-06 18:00:00,Home  Garden,3,386.7721632327441,0.0,san diego,1234567890
+873,John Doe,john@example.com,2023-08-07 00:00:00,Electronics,4,332.6848526783269,0.0,new york,(555) 123-4567
+875,Bob Johnson,bob@test.com,2023-08-07 12:00:00,Electronics,7,424.5015054420887,5.0,chicago,555-123-4567
+876,ALICE WONG,alice@company.co,2023-08-07 18:00:00,Home  Garden,2,310.66601597635463,10.0,houston,N/A
+877,John Doe,john@example.com,2023-08-08 00:00:00,Electronics,5,53.41630984514274,0.0,phoenix,(555)1234567
+878,Charlie Brown,charlie@email.com,2023-08-08 06:00:00,Clothing,1,248.9376267369333,5.0,philadelphia,555.123.4567
+880,david LEE,david@site.org,2023-08-08 18:00:00,Books,2,209.6960852058911,15.0,san diego,1234567890
+881,John Doe,john@example.com,2023-08-09 00:00:00,Home  Garden,1,209.48217967155753,10.0,new york,(555) 123-4567
+883,Bob Johnson,bob@test.com,2023-08-09 12:00:00,Books,5,180.92206164504486,5.0,chicago,555-123-4567
+884,ALICE WONG,alice@company.co,2023-08-09 18:00:00,Books,1,64.38906840774428,0.0,houston,N/A
+885,John Doe,john@example.com,2023-08-10 00:00:00,Electronics,6,406.03525290451887,5.0,phoenix,(555)1234567
+886,Charlie Brown,charlie@email.com,2023-08-10 06:00:00,Clothing,5,474.36713272259067,15.0,philadelphia,555.123.4567
+888,david LEE,david@site.org,2023-08-10 18:00:00,Electronics,7,478.0064515729337,0.0,san diego,1234567890
+889,John Doe,john@example.com,2023-08-11 00:00:00,Clothing,9,266.0625336750051,0.0,new york,(555) 123-4567
+891,Bob Johnson,bob@test.com,2023-08-11 12:00:00,Clothing,9,47.66241688532012,0.0,chicago,555-123-4567
+892,ALICE WONG,alice@company.co,2023-08-11 18:00:00,Electronics,2,255.30589135450472,0.0,houston,N/A
+893,John Doe,john@example.com,2023-08-12 00:00:00,Clothing,3,399.31261680046686,15.0,phoenix,(555)1234567
+894,Charlie Brown,charlie@email.com,2023-08-12 06:00:00,Home  Garden,7,356.47237386068207,10.0,philadelphia,555.123.4567
+896,david LEE,david@site.org,2023-08-12 18:00:00,Electronics,2,45.72189933027272,0.0,san diego,1234567890
+897,John Doe,john@example.com,2023-08-13 00:00:00,Electronics,3,207.4079084899922,0.0,new york,(555) 123-4567
+899,Bob Johnson,bob@test.com,2023-08-13 12:00:00,Electronics,7,123.86831829746345,0.0,chicago,555-123-4567
+900,ALICE WONG,alice@company.co,2023-08-13 18:00:00,Books,9,147.69220446526967,10.0,houston,N/A
+901,John Doe,john@example.com,2023-08-14 00:00:00,Books,1,403.70654421547346,10.0,phoenix,(555)1234567
+902,Charlie Brown,charlie@email.com,2023-08-14 06:00:00,Electronics,7,465.3217462796084,5.0,philadelphia,555.123.4567
+904,david LEE,david@site.org,2023-08-14 18:00:00,Home  Garden,3,453.9943910449236,0.0,san diego,1234567890
+905,John Doe,john@example.com,2023-08-15 00:00:00,Home  Garden,4,167.53289361146216,20.0,new york,(555) 123-4567
+907,Bob Johnson,bob@test.com,2023-08-15 12:00:00,Electronics,7,120.75420892983986,5.0,chicago,555-123-4567
+908,ALICE WONG,alice@company.co,2023-08-15 18:00:00,Books,4,323.83326066616354,10.0,houston,N/A
+909,John Doe,john@example.com,2023-08-16 00:00:00,Electronics,8,489.70074643565636,20.0,phoenix,(555)1234567
+910,Charlie Brown,charlie@email.com,2023-08-16 06:00:00,Clothing,5,305.71161706125554,0.0,philadelphia,555.123.4567
+912,david LEE,david@site.org,2023-08-16 18:00:00,Books,4,327.4305485353589,5.0,san diego,1234567890
+913,John Doe,john@example.com,2023-08-17 00:00:00,Books,3,70.23113244803992,20.0,new york,(555) 123-4567
+915,Bob Johnson,bob@test.com,2023-08-17 12:00:00,Home  Garden,8,256.5111358821198,0.0,chicago,555-123-4567
+916,ALICE WONG,alice@company.co,2023-08-17 18:00:00,Electronics,1,230.1813735994246,20.0,houston,N/A
+917,John Doe,john@example.com,2023-08-18 00:00:00,Books,6,297.0737463422244,20.0,phoenix,(555)1234567
+918,Charlie Brown,charlie@email.com,2023-08-18 06:00:00,Electronics,9,316.1440927668072,20.0,philadelphia,555.123.4567
+920,david LEE,david@site.org,2023-08-18 18:00:00,Home  Garden,4,344.4824383994672,0.0,san diego,1234567890
+921,John Doe,john@example.com,2023-08-19 00:00:00,Books,1,128.5465233546095,20.0,new york,(555) 123-4567
+923,Bob Johnson,bob@test.com,2023-08-19 12:00:00,Electronics,5,413.0420492482564,5.0,chicago,555-123-4567
+924,ALICE WONG,alice@company.co,2023-08-19 18:00:00,Electronics,5,403.93966870073496,0.0,houston,N/A
+925,John Doe,john@example.com,2023-08-20 00:00:00,Books,8,280.72547402986567,10.0,phoenix,(555)1234567
+926,Charlie Brown,charlie@email.com,2023-08-20 06:00:00,Books,6,264.8832472322681,5.0,philadelphia,555.123.4567
+928,david LEE,david@site.org,2023-08-20 18:00:00,Home  Garden,2,389.9196136975364,20.0,san diego,1234567890
+929,John Doe,john@example.com,2023-08-21 00:00:00,Electronics,3,142.99059641889005,0.0,new york,(555) 123-4567
+931,Bob Johnson,bob@test.com,2023-08-21 12:00:00,Clothing,3,149.2943055344832,0.0,chicago,555-123-4567
+932,ALICE WONG,alice@company.co,2023-08-21 18:00:00,Electronics,6,75.57589786984964,0.0,houston,N/A
+933,John Doe,john@example.com,2023-08-22 00:00:00,Clothing,6,318.4832714769509,10.0,phoenix,(555)1234567
+934,Charlie Brown,charlie@email.com,2023-08-22 06:00:00,Books,2,36.62269706322287,0.0,philadelphia,555.123.4567
+936,david LEE,david@site.org,2023-08-22 18:00:00,Electronics,2,165.61752967794718,20.0,san diego,1234567890
+937,John Doe,john@example.com,2023-08-23 00:00:00,Electronics,6,10.065999572197807,10.0,new york,(555) 123-4567
+939,Bob Johnson,bob@test.com,2023-08-23 12:00:00,Electronics,3,32.95743517852553,20.0,chicago,555-123-4567
+940,ALICE WONG,alice@company.co,2023-08-23 18:00:00,Electronics,2,145.32308333224074,10.0,houston,N/A
+941,John Doe,john@example.com,2023-08-24 00:00:00,Clothing,7,356.41847885330094,5.0,phoenix,(555)1234567
+942,Charlie Brown,charlie@email.com,2023-08-24 06:00:00,Electronics,4,40.71791459471427,15.0,philadelphia,555.123.4567
+944,david LEE,david@site.org,2023-08-24 18:00:00,Books,6,11.871762102705723,0.0,san diego,1234567890
+945,John Doe,john@example.com,2023-08-25 00:00:00,Books,4,130.9436959089321,15.0,new york,(555) 123-4567
+947,Bob Johnson,bob@test.com,2023-08-25 12:00:00,Clothing,9,164.97237336736032,0.0,chicago,555-123-4567
+948,ALICE WONG,alice@company.co,2023-08-25 18:00:00,Home  Garden,7,59.92727015234663,20.0,houston,N/A
+949,John Doe,john@example.com,2023-08-26 00:00:00,Electronics,9,186.51462021220965,0.0,phoenix,(555)1234567
+950,Charlie Brown,charlie@email.com,2023-08-26 06:00:00,Electronics,7,142.4927103284175,0.0,philadelphia,555.123.4567
+952,david LEE,david@site.org,2023-08-26 18:00:00,Books,8,163.54047961672015,10.0,san diego,1234567890
+953,John Doe,john@example.com,2023-08-27 00:00:00,Home  Garden,4,396.57691117024353,15.0,new york,(555) 123-4567
+955,Bob Johnson,bob@test.com,2023-08-27 12:00:00,Electronics,7,222.57053559249948,0.0,chicago,555-123-4567
+956,ALICE WONG,alice@company.co,2023-08-27 18:00:00,Electronics,3,455.87214048865206,0.0,houston,N/A
+957,John Doe,john@example.com,2023-08-28 00:00:00,Electronics,8,194.8858464419645,0.0,phoenix,(555)1234567
+958,Charlie Brown,charlie@email.com,2023-08-28 06:00:00,Electronics,6,482.398424080153,20.0,philadelphia,555.123.4567
+960,david LEE,david@site.org,2023-08-28 18:00:00,Electronics,4,346.63944058658893,10.0,san diego,1234567890
+961,John Doe,john@example.com,2023-08-29 00:00:00,Home  Garden,8,251.96887982389504,5.0,new york,(555) 123-4567
+963,Bob Johnson,bob@test.com,2023-08-29 12:00:00,Clothing,1,320.02882058681445,20.0,chicago,555-123-4567
+964,ALICE WONG,alice@company.co,2023-08-29 18:00:00,Electronics,9,354.88997490082227,10.0,houston,N/A
+965,John Doe,john@example.com,2023-08-30 00:00:00,Books,5,12.138002128651452,10.0,phoenix,(555)1234567
+966,Charlie Brown,charlie@email.com,2023-08-30 06:00:00,Clothing,4,91.80701348612737,20.0,philadelphia,555.123.4567
+968,david LEE,david@site.org,2023-08-30 18:00:00,Electronics,6,336.52885265332117,0.0,san diego,1234567890
+969,John Doe,john@example.com,2023-08-31 00:00:00,Home  Garden,2,483.36327751305186,0.0,new york,(555) 123-4567
+971,Bob Johnson,bob@test.com,2023-08-31 12:00:00,Home  Garden,7,475.87862678835563,10.0,chicago,555-123-4567
+972,ALICE WONG,alice@company.co,2023-08-31 18:00:00,Electronics,1,354.2448457520554,5.0,houston,N/A
+973,John Doe,john@example.com,2023-09-01 00:00:00,Electronics,5,156.04558223332714,0.0,phoenix,(555)1234567
+974,Charlie Brown,charlie@email.com,2023-09-01 06:00:00,Electronics,6,61.62881190291967,0.0,philadelphia,555.123.4567
+976,david LEE,david@site.org,2023-09-01 18:00:00,Home  Garden,2,325.6331185231988,0.0,san diego,1234567890
+977,John Doe,john@example.com,2023-09-02 00:00:00,Electronics,4,33.61114607271515,15.0,new york,(555) 123-4567
+979,Bob Johnson,bob@test.com,2023-09-02 12:00:00,Books,7,478.83190958730023,15.0,chicago,555-123-4567
+980,ALICE WONG,alice@company.co,2023-09-02 18:00:00,Books,2,255.1965613979986,0.0,houston,N/A
+982,Charlie Brown,charlie@email.com,2023-09-03 06:00:00,Home  Garden,9,0.01,20.0,philadelphia,555.123.4567
+985,John Doe,john@example.com,2023-09-04 00:00:00,Books,9,0.0,20.0,new york,(555) 123-4567
+987,Bob Johnson,bob@test.com,2023-09-04 12:00:00,Electronics,1,-100.0,0.0,chicago,555-123-4567
+989,John Doe,john@example.com,2023-09-05 00:00:00,Books,4,0.001,20.0,phoenix,(555)1234567
+992,david LEE,david@site.org,2023-09-05 18:00:00,Books,2,148.1558894446023,20.0,san diego,1234567890
+993,John Doe,john@example.com,2023-09-06 00:00:00,Home  Garden,7,78.48716272144584,10.0,new york,(555) 123-4567
+995,Bob Johnson,bob@test.com,2023-09-06 12:00:00,Electronics,3,123.54771167640945,10.0,chicago,555-123-4567
+996,ALICE WONG,alice@company.co,2023-09-06 18:00:00,Clothing,6,34.65940565249227,0.0,houston,N/A
+997,John Doe,john@example.com,2023-09-07 00:00:00,Electronics,6,234.91893598501713,0.0,phoenix,(555)1234567
+998,Charlie Brown,charlie@email.com,2023-09-07 06:00:00,Electronics,5,136.6212409330861,10.0,philadelphia,555.123.4567
+1000,david LEE,david@site.org,2023-09-07 18:00:00,Books,1,258.0974403135707,15.0,san diego,1234567890
