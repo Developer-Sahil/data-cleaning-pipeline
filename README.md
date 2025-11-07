@@ -250,10 +250,6 @@ result = (pipeline
 
 ---
 
-## 🎥 Demo
-
-![Before/After Comparison](assets/demo.png)
-
 ## ⚡ Performance Benchmarks
 
 | Dataset Size | Processing Time | Memory Usage |
